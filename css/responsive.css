@@ -1,0 +1,259 @@
+@media only screen and (min-width : 1200px){
+    /*Text, Cardsize, blog,testi*/
+    .navbar-brand{
+        font-size: 1.8em;
+    }
+    .webme p,.trafficme p,.appme p{
+        font-size: 1em;
+        top:24em;
+        opacity: 1;
+    }
+    .about-design .secondme{
+        display: block;
+        top: -20em;
+    }
+    .about-design:hover .webme p{
+        left: -90.5%;
+    }
+    .about-design:hover .trafficme p{
+    right: -90.5%;
+    }
+    .appme .meTitle{
+        top: 19em;
+    }
+    .webme .meTitle{
+        top: 18em;
+        left: 10.8em;
+    }
+    .trafficme .meTitle{
+        top: 20em;
+        right: 9.8em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -6em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        right: -7.5em;
+    }
+
+}
+@media only screen and (min-width : 992px){
+    .navbar-brand{
+        font-size: 1.6em;
+    }
+    .home-inner>p{
+        font-size: 1.6em;
+    }
+    
+    .about-design .meTitle{
+        font-size: 2em;
+    }
+}
+@media only screen and (min-width : 768px){
+    .home-title{
+        padding-top: 20px;
+        font-size: 5em;
+    }
+    
+    .about-design .meTitle{
+        font-size: 1.6em;
+    }
+    .appme p{
+        opacity: 1;
+    }
+    .about-design:hover .webme p,.about-design:hover .trafficme p{
+    opacity: 1;
+    }
+    
+}
+
+@media only screen and (max-width : 768px){
+    .about-inner .introText{
+        display:block; 
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .home-inner>p{
+        font-size: 1.45em;
+    }
+    .appme p{
+        opacity: 1;
+    }
+    .about-design:hover .webme p,.about-design:hover .trafficme p{
+    opacity: 1;
+    }
+    
+}
+
+
+@media only screen and (max-width:1200px) and (min-width: 992px){
+    
+    .appme .meTitle{
+        top: 19em;
+    }
+    .webme .meTitle{
+        top: 18em;
+        left: 9.5em;
+    }
+    .trafficme .meTitle{
+        top: 20em;
+        left: -8.5em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -5em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 6em;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 768px){
+    
+    .appme .meTitle{
+        top: 17em;
+    }
+    .webme .meTitle{
+        top: 16em;
+        left: 8em;
+    }
+    .trafficme .meTitle{
+        top: 18em;
+        left: -7em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -3.5em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 4em;
+    }
+}
+
+@media only screen and (min-width : 468px) and (max-width : 568px) {
+    .meTitle{
+        font-size: 1em !important;
+    }
+    .appme .meTitle{
+        top: 11em;
+    }
+    .webme .meTitle{
+        top: 10em;
+        left: 8em;
+    }
+    .trafficme .meTitle{
+        top: 12em;
+        left: -7em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -3.5em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 4em;
+    }
+    .timeline-date{
+        font-size: .9em !important;
+    }
+}
+@media only screen and (min-width : 568px) and (max-width : 668px) {
+    .meTitle{
+        font-size: 1.1em !important;
+    }
+    .appme .meTitle{
+        top: 12em;
+    }
+    .webme .meTitle{
+        top: 11em;
+        left: 9em;
+    }
+    .trafficme .meTitle{
+        top: 13em;
+        left: -8em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -4.5em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 5.5em;
+    }
+}
+@media only screen and (min-width : 668px) and (max-width : 768px) {
+    .appme .meTitle{
+        top: 11em;
+    }
+    .webme .meTitle{
+        top: 10em;
+        left: 9em;
+    }
+    .trafficme .meTitle{
+        top: 12em;
+        left: -8em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -4.7em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 5.5em;
+    }
+}
+@media only screen and (max-width : 468px) {
+    .meTitle{
+        font-size: .8em;
+    }
+    .appme .meTitle{
+        top: 9em;
+    }
+    .webme .meTitle{
+        top: 8em;
+        left: 7em;
+    }
+    .trafficme .meTitle{
+        top: 10em;
+        left: -6.4em;
+    }
+    .about-design:hover .webme .meTitle{
+        left: -2.8em;
+        top: 9em;
+    }
+    .about-design:hover .trafficme .meTitle{
+        left: 3.7em;
+    }
+    
+    .timeline-date{
+        font-size: .8em !important;
+    }
+}
+@media only screen and (min-width : 468px) and (max-width : 768px) {
+    .home-title{
+        padding-top: 20px;
+        font-size: 3em;
+    }
+    .home-inner>p{
+        font-size: 1.2em;
+    }
+    .about-design .meTitle{
+        font-size: 1.3em;
+        opacity: 1;
+    }
+    .webme p,.trafficme p{
+        top: 0em;
+    }   
+    .webme p,.trafficme p,.appme p{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width : 468px) and (min-width : 300px){
+    .home-title{
+        padding-top: 20px;
+        font-size: 2em;
+    }
+    .home-inner>p{
+        font-size: 1em;
+    }
+    .about-design .meTitle{
+        font-size: 1em;
+        opacity: 1;
+    }
+    .webme p,.trafficme p,.appme p{
+        display: none;
+    }
+}
