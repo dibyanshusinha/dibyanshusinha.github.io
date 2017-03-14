@@ -3,12 +3,12 @@
 Welcome to Portfolio
 --------------------
 
-Portfolio is a web-application based on Rails 4.x framework that allows you create portfolio with images
+My Portfolio is a website showing cool aniimations with extensive css3 & responsiveness achieved through custom media-queries
 
 Key features:
 
-* Upload artworks and show them in Portfolio
-* Organize photos in Projects, connecting a topic or event
+* My projects in Portfolio
+* Proofessional summary along with some personal details
 * Extensive Details to understand me as a developer
 * Beautiful admin UI
 
