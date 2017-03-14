@@ -1,0 +1,1136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+    <meta name="description" content="Portfolio of Dibyanshu, a freelance web developer, mobile app developer, iOS developer, android developer, windows app developer and WordPress theme developer." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+    <title>Creative portfolio of Dibyanshu, a Freelance App/Web Developer</title>
+    <meta name="author" content="Dibyanshu">
+    <!-- open graph -->
+    <meta property="og:title" content="Freelance App/Web Developer" />
+    <meta property="og:site_name" content="Creative portfolio of Dibyanshu, a Freelance App/Web Developer"/>
+    <meta property="og:description" content="Portfolio of Dibyanshu, a freelance web developer, mobile app developer, iOS developer, android developer, windows app developer and WordPress theme developer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://dibyanshusinha.github.io/images/screenshot.jpg" />
+    <meta property="og:url" content="https://dibyanshusinha.github.io/" />
+    <!-- open graph -->
+    <meta name="twitter:card" content="product" />
+    <meta name="twitter:title" content="Freelance Web/App Developer" />
+    <meta name="twitter:description" content="Portfolio of Dibyanshu, a freelance web developer, mobile app developer, iOS developer, android developer, windows app developer and WordPress theme developer." />
+    <meta name="twitter:image" content="http://dibyanshusinha.github.io/images/screenshot.jpg" />
+    <meta name="twitter:label2" content="Website Apps" />
+    <meta name="twitter:data2" content="Developer" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <!-- Stylesheets -->    
+    <link href='css/load.css' rel='stylesheet'>
+    
+    
+    
+    <!-- Bootstrap-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:900,300,200,100' rel='stylesheet'> 
+    <!--Themes-->
+    <link href='css/pro-bars.css' rel='stylesheet'>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <!--[if lte IE 9]><link href='css/animation-fix.css' rel='stylesheet'><![endif]-->
+    <!--Custom-->
+    <link href='css/style.css' rel='stylesheet'>
+    <link href='css/responsive.css' rel='stylesheet'>
+    
+    
+
+    <body data-spy="scroll" data-taget=".navbar-nav">
+        <div id="load-cover">
+            <div id="load-container">
+                <div class="cssload-container">
+                    <div class="cssload-teardrop cssload-tearLeft"></div>
+                    <div class="cssload-teardrop cssload-tearRight"></div>
+                    <div id="cssload-contain1">
+                        <div id="cssload-ball-holder1">
+                            <div class="cssload-ballSettings cssload-ball1"></div>
+                        </div>
+                    </div>
+                    <div id="cssload-contain2">
+                        <div id="cssload-ball-holder2">
+                            <div class="cssload-ballSettings cssload-ball2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Section Starts -->
+        <header id="header" role="banner">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">Dibyanshu's Portfolio</a>
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a class="smoothScroll" href="#about">About Me<span class="sr-only">(current)</span></a></li>
+                                <li><a class="smoothScroll" href="#portfolio">Portfolio</a></li>
+                                <li><a class="smoothScroll" href="#testimonial">Testimonial</a></li>
+                                <li><a class="smoothScroll" href="#blog">Blog</a></li>
+                                <li><a class="smoothScroll" href="#contact">Contact</a></li>
+                            </ul> 
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Navigation Section Ends -->
+        
+        <!-- Home Section Starts -->    
+        <section id="home">
+            <!-- Banner Animation Starts -->
+            <div class="animated_layer">
+                <div class="bubble_b"></div>
+                <div class="bubble_a"></div>
+            </div>
+            <!-- Banner Animation Ends -->
+            <!-- Banner overlay Starts -->
+            <article class="overlay-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="home-inner text-center animatedParent">
+                                <h1 class="home-title topSpace animated pulse">HI! I'm <span>Dibyanshu</span></h1>
+                                <p class="animated fadeInUpShort">India based Freelance Developer creating awesome and effective websites<br>along with Android and Windows Phone Apps</p>
+                                <a class="btn btn-cta animated fadeIn slow delay-1000" href="#footer"><i class="fa fa-paper-plane"></i> Contact Me </a>
+                                <!-- Call to About Button -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Banner overlay Ends -->
+        </section>
+        <!-- Home Section Ends --->
+        
+        <!-- About Me Section Starts -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-inner">
+                        <div class="introText">
+                            My Multiple Skills
+                        </div>
+                        <div class="about-design">
+                            <div class="webme">
+                                <p class="meTitle">Websites</p><p>Website Coding and Development throughout all phases<br>either it be a SPA, Custom Static Site, a dynamic one,<br>ecommerce with custom backend panel, or<br> WordPress theme from scratch </p>
+                                <img src="images/col1.PNG">
+                                <p class="secondme">In my Free time I like to learn new stuffs, there's whole lot<br>of things out there and it amazes me how less I know.<br> Apart from that I want to be an entrepreneur, but<br> still waiting for my "one in a million idea".</p>
+                            </div>
+                            <div class="appme">
+                                <p class="meTitle">Mobile Apps</p><p>Native app Development for Android & Windows. iOS(learning)<br>Can create apps having Client-Server architecture,<br>from whatsapp to uber, sometimes<br>flappy birds too.</p>
+                                <img src="images/col2.PNG">
+                            </div>
+                            <div class="trafficme">
+                                <p class="meTitle">S.E.M.</p>
+                                <p>Can help with Traffic Generation with basic SEO hacks<br>boost your Alexa Ranking, Keywords optimization<br>help with Analytics and Adwords Campaigns,<br>on site and off-site content and backlinks</p>
+                                <img src="images/col3.PNG">
+                                <p class="secondme">Fun Facts:<br>I suffer from Insomnia. Apart from that I am a die-hard fan<br>of Stories. I like watching tv-series, movies & reading<br>novels. Shiva Trilogy & RashmiRathi are<br>some of my favourite ones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Me Section Ends -->
+        
+        <!-- Resume Section Starts -->
+        <section id="resume">
+            <!-- Skills Starts -->
+            <article id="skill">
+                <div class="container">
+                    <div class="topSpace skill-inner animatedParent">
+                        <h2 class="title animated bounceInDown">Skills</h2>
+                        <p class="introText animated bounceInLeft slow">Writing clean and well documented codes is not an option: it's my biological requirement. I like my code to be elegant and efficient. Although talent feels and looks predestined, in fact we have a good deal of control over what skills we develop. <br>That productive, uncomfortable terrain located just beyond our current abilities, where our reach exceeds our grasp, struggling in certain targeted ways—operating at the edges of our ability, where we make mistakes—makes us smarter. That's when we are skilled !</p>
+                    </div>
+                    <!-- Skills Pipe Starts -->
+                    <article class="skill-progress-bar">
+                        <span>Html5/Bootstrap</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-95 skill-face" data-pro-bar-percent="95" data-pro-bar-delay="50"></div>
+                        </div>
+                        <span>css/XML/XAML</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-90 skill-face" data-pro-bar-percent="90" data-pro-bar-delay="100"></div>
+                        </div>
+                        <span>Windows Apps</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-75 skill-face" data-pro-bar-percent="85" data-pro-bar-delay="200"></div>
+                        </div>
+                        <span>Android</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-65 skill-face" data-pro-bar-percent="85" data-pro-bar-delay="300"></div>
+                        </div>
+                        <span>Angular Js</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-60 skill-face" data-pro-bar-percent="80" data-pro-bar-delay="400"></div>
+                        </div>
+                        <span>Wordpress</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-65 skill-face" data-pro-bar-percent="85" data-pro-bar-delay="400"></div>
+                        </div>
+                        <span>Scripting</span>
+                        <div class="pro-bar-container skill-body">
+                            <div class="pro-bar bar-50 skill-face" data-pro-bar-percent="75" data-pro-bar-delay="500"></div>
+                        </div>
+                    </article> 
+                    <!-- Skills Pipe Ends -->
+                </div>
+            </article>            
+            <!-- Skills Ends -->
+            <!-- Experience Starts -->
+            <article id="experience">
+                <div class="container">
+                    <article class="experience-inner introText animatedParent">
+                        <h2 class="title animated fadeInLeftShort">Experience</h2>
+                        <p class="animated fadeInUpShort slowest">I never dreamt of being a coder, I used to run away from it even in my dreams until one fine morning- I had an idea...and the desire to make it real was irresistible. Instead of getting help from friends as I always used to, I choose to  implement it from scratch all by myself even though I knew nothing about it. As I kept struggling, while learning it...it became so natural and the thirst of learning itself became my biggest achievement till date. That was the day I learnt the joy of creation itself and now I can't distance myself from it !</p>
+                        <div id="owl-carousel" class="experience-slider row">
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">January 2015 - Present</h2>
+                                    <div class="card-image">
+                                        <img class="activator" src="images/web.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">Full-Stack Web Dev<i class="fa fa-ellipsis-v show"></i></span>
+                                        <p class="card-subtitle">Miscellaneous</p>
+                                    </div><!-- card actions -->
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">Miscellaneous<br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="http://www.vanity360.in" target="_blank" class="card-subtitle">Vanity360.in</a>
+                                        <p>Responsibilities: Creating excellent HTML/CSS3 slices from PSD files, Working with existing web code including PHP JavaScript etc. Responsive development. Few other Projeccts I did were with WordPress, basic PHP Scripting, Bootstrap etc..
+                                    </div><!-- card reveal -->
+                                </div>
+                            </article>
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">September 2015 - Present</h2>
+                                    <div class="card-image">
+                                        <img class="activator" src="images/android.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">Android Apps <i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>Miscellaneous</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">Android Apps<br> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="#" class="card-subtitle">Miscellaneous</a>
+                                        <p>Responsibilities: I learnt and worked with apps requiring client-server architeccture to a simple two player stand-alone game. To name a few easyRide, a small chatting app etc..</p>
+                                    </div>
+                                </div>
+                            </article>                  
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">Jan 2014 - Feb 2015</h2>
+                                    <div class="card-image">
+                                        <img class="activator" src="images/windows.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">Location Tracking App <i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>Windows Phone App</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">Location Tracking App <br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="#" class="card-subtitle">Windows Phone App</a>
+                                        <p>Responsibilities: I learnt and worked with apps requiring client-server architeccture to a simple two player stand-alone game. My favourite one was Livetrack, I created an app that will tell the loccation of a speccific user to his concerned members through the app.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">Oct 2015 - Dec 2015</h2>
+                                    <div class="card-image">
+                                        <img class="activator" src="images/angular.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">Angular JS<i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>SPA</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">Sales Backend <br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="http://angular.annexire.com/" target="_blank" class="card-subtitle">Angular JS</a>
+                                        <p>Learnt the MV* framework. SPA's and the extensive use of ajax proessing and optimizing the web was very much ignored till now. Angular JS works like a charm and am definitely seing a great future ahead in it.</p>
+                                    </div>
+                                </div>
+                            </article>          
+                            <!-- Start Single Experience -->      
+                            <!--
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">January 2013 - Present</h2>
+                                    <div class="card-image">                                        
+                                        <img class="activator" src="images/ios.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">iOS Developer<i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>personal</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">iOS Developer <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="#" class="card-subtitle">personal</a>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                    </div>
+                                </div>
+                            </article>     
+                            -->
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">Aug 2015 - Sep 2015</h2>
+                                    <div class="card-image">                                        
+                                        <img class="activator" src="images/wordpress.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">WPTheme Developer<i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>redwooddesigns</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">JSB Acounting <br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="#" target="_blank" class="card-subtitle">WordPress Theme</a>
+                                        <p>Bored of using freemium themes as have had experimented with 100's of them and encountered most of them over time. I learnt how to create one.  The joy of creating a custom theme and the flexiblity to write your own plugins is very nice.</p>
+                                    </div>
+                                </div>
+                            </article>                           
+                            <!-- Start Single Experience -->
+                            <article class="col-xs-12">
+                                <div class="card">
+                                    <h2 class="experience-title">January 2016 - Present</h2>
+                                    <div class="card-image">                                        
+                                        <img class="activator" src="images/seo.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title activator reveal-title">SEO<i class="fa fa-ellipsis-v show"></i></span>
+                                        <p>Miscellaneous</p>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title reveal-title">SEO<br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+                                        <a href="http://www.vanity360.in" target="_blank" class="card-subtitle">vanity360.in</a>
+                                        <p>The ranking when I started was not even in Picture. I increased the Alexa Ranking of this site from 2.75 million to 400000 in two months. I helped with Analytics, Traffic, and adCampaigns.
+                                    </div>
+                                </div>
+                            </article>     
+                        </div>
+                        <!-- owl navigation -->
+                        <div class="customNavigation">
+                            <a class="prev btn-floating waves-effect waves-light"><i class="fa fa-chevron-circle-left"></i></a>
+                            <a class="next btn-floating waves-effect waves-light"><i class="fa fa-chevron-circle-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </article>
+            <!-- Experience Ends -->
+            <!-- Education Starts -->
+            <article id="education">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title animatedParent">
+                                <h1 class="boldheading animated fadeInUp slow">EDUCATION</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-timeline">
+                        <div class="row first">
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-divider animated bounceIn">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="timeline-details left animated fadeInLeft slow delay-500">
+                                    <div class="details">
+                                        <h2 class="heading former">On Going</h2>
+                                        <h3 class="subheading former">Onsite/Offsite Various Web/App Projects</h3>
+                                        <p class="former">Responsibilities: Creating excellent HTML/CSS3 slices from PSD files,<br>coding WordPress Sites & Mobile Apps for Different Clients.<br> Also helping them with SEO/SEM. In the mean time I keep studying and learning. Google definitely has been a great pal! </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-marker right pull-left animated fadeInRight slow delay-500">
+                                    <div class="timeline-date">
+                                        SEP 2015 - PRESENT
+                                    </div>
+                                    <div class="arrow-left">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-divider animated bounceIn">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <div class="timeline-marker left pull-right animated fadeInLeft slow delay-500">
+                                    <div class="timeline-date">
+                                        JUL 2012 - AUG 2015
+                                    </div>
+                                    <div class="arrow-right">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-details right animated fadeInRight slow delay-500">
+                                    <div class="details">
+                                        <h2 class="heading">B.Tech: Information Technology</h2>
+                                        <h3 class="subheading">Galgotia College of Engg. & Tech, UPTU | Greater Noida</h3>
+                                        <p>Apart from completing the degree my interests grew in development and coding not before my Final Year, since then I am a full-time coder and love what I do. In my Final year, I did an Internship from BSNL- Training Centre. I started Freelancing Projects  from college as I loved doing it. At first I did it for free.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-divider animated bounceIn">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <div class="timeline-details left animated fadeInLeft slow delay-500">
+                                    <div class="details">
+                                        <h2 class="heading former">Diploma: Information Technology</h2>
+                                        <h3 class="subheading former">Govt. Polytechnic College, SBTE | Ranchi | Jharkhand</h3>
+                                        <p class="former">Got Introduced to Technical Knowledge. I did well in academics and learnt to be a team-player. Also learnt the bureaucratic discipline, apart from the academic knowledge. In my Final year,  I did an Internship from BSNL- Training Centre. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-marker right pull-left animated fadeInRight slow delay-500">
+                                    <div class="timeline-date">
+                                        MAY 2008 - JUL 2012
+                                    </div>
+                                    <div class="arrow-left">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-divider animated bounceIn">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <div class="timeline-marker left pull-right animated fadeInLeft slow delay-500">
+                                    <div class="timeline-date">
+                                        *Primary - May 2008
+                                    </div>
+                                    <div class="arrow-right">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-6 animatedParent">
+                                <div class="timeline-details right animated fadeInRight slow delay-500">
+                                    <div class="tledu">
+                                        <h2 class="heading">Secondary School: CBSE</h2>
+                                        <h3 class="subheading">Adwaita Mission, Bounsi - Banka | Bihar</h3>
+                                        <p>I have come a long way from then. The picture that I can visualize of my School Time is being in a boarding school having lots of friends and mischiefs. Apart from them I got  Distinction in G. K & Intelligence Test organised by <srong>C.I.G.K.</srong><br>Got Ranked in<srong> International Level Science Talent-2003</srong> and few others like Bhartiya Sanskriti Gyan Pariksha</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Education Ends -->
+            <div class="clearfix"></div>
+        </section>
+        <!-- Resume Section Ends -->
+        
+        <!-- Portfolio Section Starts -->
+        <section id="portfolio">
+            <!-- Portfolio Banner Starts -->
+            <article class="portfolio-top">
+                <div class="container">
+                <div class="portfolio-top-inner animatedParent">
+                   <h2 class="title animated fadeInLeft ">Portfolio</h2>
+                   <div class="controls">  
+                    <button class="filter waves-effect waves-light btn" data-filter="all">All</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".html">HTMl</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".angularJs">Angular JS</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".wordPress">WordPress</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".windows">Windows</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".android">Android</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".ios">iOS</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".java">Java</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".php">Php</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".muse">Muse</button>
+                </div>
+              </div>
+            </div>
+            </article>
+            <!-- Portfolio Banner Ends -->
+            <!-- Portfolio Content Starts -->
+            <article class="portfolio-bottom">
+                <div class="container">
+                    <div class="row">
+                        <!-- Modal Item-->
+                        <div class="col-md-12">
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal1" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/html/annexire.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Landing Page</h3>
+                                                <p>
+                                                    Annexire is the Perfect HTML Landing page for Clients to get their user to sign up newsletter. It can also be used as a coming soon holding page to keep the users informed about the progress.
+                                                </p>
+                                                <a href="http://www.annexire.com/" target="_blank" class="btn btn-cta allPost">Live Website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal2" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/angularJs/SalesApp.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Sales</h3>
+                                                <p>
+                                                    Sales Backend app is a Single Page Application which aims to serve as backend panel for an ecommerce site. It acts as the interface between ecommerce sellers and management. Angular with it’s great features as MV* makes the website robust and secure. Features included are Searching, Sorting, of the data retrieved from the database and manipulation.
+                                                </p>
+                                                <a href="http://angular.annexire.com" target="_blank" class="btn btn-cta allPost">Work In Progress</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal3" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/wordPress/JSBAccounting.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >JSBAccounting</h3>
+                                                <p>
+                                                    My Custom developed WordPress theme from Scratch for an accounting client. My client Katy, owner of Redwood Design initially needed a wordpress site to be customized according to her client's need but the theme wasn’t flexible enough. So she rehired me to develop a theme for one of her clients in the Accounting Business. She was very happy with my work. The website is created on WordPress CMS with custom theme according to the client's taste. Client was in a hurry and it took less than 10 days to launch the website from Scratch!
+                                                </p>
+                                                <a href="http://jsbaccounting.co.uk/" target="_blank" class="btn btn-cta allPost">Live Website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal4" tabindex="-1"  aria-hidden="true">
+                               <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/windows/crypt.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Crypt</h3>
+                                                <p>
+                                                    The project Involved creation of An Windows Universal App capable of 2 step encryption and decryption of .AES Encryption & Caesar cipher to make it more secure and robust. It is available for both as Windows 8.1 Desktop App and as Windows Phone 8.1 App. As I had developed WP8 apps only for sideloading... making this available in Windows seemed to be the next obvious learning step.
+                                                </p>
+                                                <a href="https://www.microsoft.com/en-us/store/apps/crypt/9nblggh2pbbj" target="_blank" class="btn btn-cta allPost">Check in Windows Store</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal5" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/android/android.jpg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >easyRide</h3>
+                                                <p>
+                                                    Inspired from the famous Uber app I have developed an easyRide App which can be used to provide transportation when need. User can register and get a taxi on demand using the GPS sensor of their cellphone. There are two different views for driver and customer.
+                                                    <br>
+                                                    Try installing it in two devices one as a rider and other as a driver. From the device with rider mode active create a request and from the other device with driver mode accept the request and the workflow will follow...
+                                                    There is a scope for furthur development, as I developed it as a prototype.
+                                                    <br>
+                                                    <strong>Disclaimer- Want this app just to test the functionality ? (Don't share it & uninstall it after testing)</strong>
+                                                </p>
+                                                <a href="com.annexire.sunny.easyRide.apk" download="com.annexire.sunny.easyride.apk" target="_blank" class="btn btn-cta allPost">Download Prototype</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal6" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/wordPress/babykick.jpg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Babykick (in Progress)</h3>
+                                                <p>
+                                                    The website is created on WordPress CMS theme according to the client's taste. The Website is soon to be an eCommerce store dealing with Maternity and Baby Products. The ecommerce has not been integrated yet but will soon have an awesome store attached to it.
+                                                </p>
+                                                <a href="http://babykick.in/" target="_blank" class="btn btn-cta allPost">View Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal7" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/php/skyzmiles.jpeg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Tourism</h3>
+                                                <p>
+                                                    This site is for my client Mr Saroj, who is an expert in SEM. Apart from being an PPC expert he also owns a Travel Company. He needed a minimalistic site for his business, as they are a tour and travel's company and help in planning abroad Tours and Travels. Apart from the other modules I developed the search box to show different destinations airport names etc! was the main focus and they loved it.
+                                                </p>
+                                                <a href="http://www.skyzmiles.in" target="_blank" class="btn btn-cta allPost">Live View</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal8" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/muse/gray.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Gray's Papaya</h3>
+                                                <p>
+                                                    This is unrefined version of the site that was for my client DeSantos. He is from NewYork and at the time of writing has acquired the Gray's Papaya Restaurant Chain there. 
+
+                                                    <br>The HotDog from Gray's Papaya has been featured in many tv shows and films. Even <strong>Barack Obama visited this restaurant chain for his campaign in 2008</strong>. Mr. Santos wanted two different views to choose from so I made two versions of the site. One has seriousness and the other is being a fun and interactive website. Although he bought both of them, he hasn't put the site online as he is working on the offline model first. We will soon see the modified version of this page or the other one hopefully as the official website later this year...
+                                                </p>
+                                                <a href="http://grays.annexire.com" target="_blank" class="btn btn-cta allPost">Go to Website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal9" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/ios/vanity360.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Vanity360</h3>
+                                                <p>
+                                                    I did the front end of this site as the backend was powered by KartRocket. Then again started it from scratch and implemented it using OpenCart. Vanity360.in is growing online store in beauty cosmetic products and beauty wellness products in India. Vanity360 aims to make online shopping a pleasant experience with detail attention paid on timely delivery of the product. The products are 100% genuine and authentic sourced directly from the leading brands. 
+                                                </p>
+                                                <a href="http://www.vanity360.in" target="_blank" class="btn btn-cta allPost">Go to Website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal10" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/wordPress/Product-Review.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >Product Review</h3>
+                                                <p>
+                                                    An E-Review Website which Aims to provide reasonable reviews, thus enabling users to review or buy a products. Users can also opt to input their own reviews. It can further be developed to expand for selling other products too.
+
+                                                </p>
+                                                <a href="http://reviews.annexire.com" target="_blank" class="btn btn-cta allPost">View Demo</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal11" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/wordPress/foodkart.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >FoodKart</h3>
+                                                <p>
+                                                    This FoodKart is a great website for your FoodRetail Market. As the demand of food in every country will always be huge (everyone needs it). Indian food market at the end of 2016 is expected to be worth One Trillion dollars. That's a huge one. So I created this website which can help as an ecommerce store for retail food and groceries.
+                                                </p>
+                                                <a href="http://foodkart.annexire.com/united-kingdom-2/usa/" target="_blank" class="btn btn-cta allPost">View Demo</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Item-->
+                            <div class="modal fade" id="portfolioModal12" tabindex="-1"  aria-hidden="true">
+                                <div class="container-fluid portfolio-modal">
+                                    <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="modal-img">
+                                                <img src="images/portfolio/windows/livetrack.PNG" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-modal-content">
+                                                <h3 class="modal-title" >LiveTrack</h3>
+                                                <p>Livetrack is a Windows Application capable of tracking real time location of a cell using GPS. This application constantly reviews the changes made in the location and keeps posting the updated information to the server which is then received by another device to show the current location.
+                                                <br>
+                                                    <strong>Disclaimer- Project was for sideloading (Not available on Windows Store, Yet)</strong>
+                                                </p>
+                                                <a href="#contact" class="btn btn-cta allPost">Request View</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-bottom-inner">
+                            <div id="portfolio-list">
+                                <div class="mix html " data-value="1">
+                                    <a>
+                                        <img src="images/portfolio/html/annexire.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal1" ></i>
+                                    </a>
+                                </div>
+                                <div class="mix angularJs" data-value="2">
+                                    <a>
+                                        <img src="images/portfolio/angularJs/SalesApp.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal2"></i>          
+                                    </a>
+                                </div>
+                                <div class="mix wordPress" data-value="3">
+                                    <a>
+                                        <img src="images/portfolio/wordPress/JSBAccounting.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal3"></i>
+                                    </a>
+                                </div>
+                                <div class="mix windows" data-value="4">
+                                    <a>
+                                        <img src="images/portfolio/windows/crypt.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal4"></i>
+                                    </a>
+                                </div>
+                                <div class="mix android" data-value="5">
+                                    <a>
+                                        <img src="images/portfolio/android/android.jpg" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal5"></i>
+                                    </a>
+                                </div>
+                                <div class="mix wordPress" data-value="6">
+                                    <a>
+                                        <img src="images/portfolio/wordPress/babykick.jpg" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal6"></i>
+                                    </a>
+                                </div>
+                                <div class="mix php" data-value="7">
+                                    <a>
+                                        <img src="images/portfolio/php/skyzmiles.jpeg" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal7"></i>
+                                    </a>
+                                </div>
+                                <div class="mix muse" data-value="8">
+                                    <a>
+                                        <img src="images/portfolio/muse/gray.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal8"></i>
+                                    </a>
+                                </div>
+                                <div class="mix php" data-value="9">
+                                    <a>
+                                        <img src="images/portfolio/ios/vanity360.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal9"></i>
+                                    </a>
+                                </div>
+                                <div class="mix wordPress" data-value="10">
+                                    <a>
+                                        <img src="images/portfolio/wordPress/Product-Review.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal10"></i>
+                                    </a>
+                                </div>
+                                <div class="mix wordPress" data-value="11">
+                                    <a>
+                                        <img src="images/portfolio/wordPress/foodkart.png" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal11"></i>
+                                    </a>
+                                </div>
+                                <div class="mix windows" data-value="12">
+                                    <a>
+                                        <img src="images/portfolio/windows/livetrack.PNG" alt="img">
+                                        <i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal12"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Portfolio Contents Ends -->
+        </section>
+        <!-- Portfolio Section Ends -->
+        
+        <!-- Tesimonial Section Starts -->
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <article class="testimonial-inner animatedParent">
+                            <h2 class="title animated fadeInLeftShort">Testimonial</h2>
+                            <p class=" animated fadeInUpShort slowest">I have had an amazing journey and learning experience from most of my clients and have received tons of awesome feedback and suggestions.<br>Here's what they had to say –</p>
+                            <!-- Start Testimonial Slider -->
+                            <article class="testimonial-slider-area">
+                                <ul id="owl-carousel2" class="testimonial-slider row equiList">
+                                    <li class="equiList-item">
+                                        <article class="single-testimonial">
+                                            <div class="testimonial-img">
+                                                <img src="images/katy.jpg" alt="img">
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <h3>Katy</h3>
+                                                <span>Director, Redwood Designs,UK</span>
+                                                <p>"I cannot recommend Dibyanshu enough! Through my 18 years of working as Redwood Designs I have never come across a more hard-working and dedicated individual. He saw the job from beginning to end for what was actually a very stressful and hard project to work on. He worked incredibly hard and nothing was too much for him. I will certainly be working with him again on a long term basis."</p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li class="equiList-item">
+                                        <article class="single-testimonial">
+                                            <div class="testimonial-img">
+                                                <img src="images/santos.jpg" alt="img">
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <h3>Jdesantos</h3>
+                                                <span>A client from New York</span>
+                                                <p>"Hard worker....not afraid of a challenge!"<br><br><br><br><br><br><br><br></p>
+                                            </div>
+                                        </article>
+                                    </li> 
+                                    <li class="equiList">
+                                        <article class="single-testimonial">
+                                            <div class="testimonial-img">
+                                                <img src="images/next.gif" alt="img">
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <h3>You will be next!</h3>
+                                                <span>For Sure</span>
+                                                <p>"If they all loved my work, You would too!"<br><br><br><br><br><br><br><br></p>
+                                            </div>
+                                        </article>
+                                    </li>    
+                                </ul>
+                                <div class="customNavigation">
+                                    <a class="prev2 btn-floating waves-effect waves-light"><i class="fa fa-chevron-circle-left"></i></a>
+                                    <a class="next2 btn-floating waves-effect waves-light"><i class="fa fa-chevron-circle-right"></i></a>
+                                </div>        
+                            </article>
+                        </article>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!-- Testimonial Section Ends -->
+        
+        
+        
+        <!-- Blog Section Starts -->
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="blog-inner introText animatedParent">
+                            <h2 class="title animated bounceInDown">Blog</h2>
+                            <p class="animated bounceInLeft slow">We only get few hours in a day to be able to spend time on learning and since there are so many alternatives to choose from, picking the right resource can really be confusing. Let us learn from each other's experience. Here are few of my experiences I would like to share. Hope it will be of help to you!</p>
+                            <!-- Start Blog area -->
+                            <div class="blog-area">
+                                <div class="row">
+                                    <!-- Start single blog post -->
+                                    <div class="col-xs-12 col-md-4">
+                                        <div class="blog-post">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="images/pagination.jpg">   
+                                                </div>
+                                                <div class="card-content blog-post-content">
+                                                    <h2><a href="blog-single.html">Dynamic Responsive Pagination</a></h2>
+                                                    <div class="meta-media">
+                                                        <div class="single-meta">
+                                                            Post By <a href="#">Dibyanshu</a>
+                                                        </div>
+                                                        <div class="single-meta">
+                                                            Category : <a href="#">Web/Dev</a>
+                                                        </div>
+                                                    </div>
+                                                    <p>Ever wondered how to bind ton's of data to your own custom pagination structure ? AngularJs with little bootstrap can be the magic glue you need.<br><br></p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a class="post-comment" href="#"><i class="fa fa-comment"></i><span>10</span></a>
+                                                    <a class="readmore-btn" href="pagination.html">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Start single blog post -->
+                                    <div class="col-xs-12 col-md-4">
+                                        <div class="blog-post">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="images/tricks.jpg">  
+                                                </div>
+                                                <div class="card-content blog-post-content">
+                                                    <h2><a href="blog-single.html">Dirty Front-End Tricks</a></h2>
+                                                    <div class="meta-media">
+                                                        <div class="single-meta">
+                                                            Post By <a href="#">Dibyanhu</a>
+                                                        </div>
+                                                        <div class="single-meta">
+                                                            Category : <a href="#">Web/Design</a>
+                                                        </div>
+                                                    </div>
+                                                    <p>Do you love the object tag, too? How do you feel about responsive image maps? Have you ever tried to work around complex tables, nasty carousels, endless country selectors and complex user interfaces? Well, let’s bring it on!</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a class="post-comment" href="#"><i class="fa fa-comment"></i><span>15</span></a>
+                                                    <a class="readmore-btn" href="tricks.html">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Start single blog post -->
+                                    <div class="col-xs-12 col-md-4">
+                                        <div class="blog-post">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="images/wp-secure.jpg">    
+                                                </div>
+                                                <div class="card-content blog-post-content">
+                                                    <h2><a href="blog-single.html">Secure Your WordPress </a></h2>
+                                                    <div class="meta-media">
+                                                        <div class="single-meta">
+                                                            Post By <a href="#">Dibyanshu</a>
+                                                        </div>
+                                                        <div class="single-meta">
+                                                            Category : <a href="#">Web/Security</a>
+                                                        </div>
+                                                    </div>
+                                                    <p>Tired of 1000's of Brute-Force attacks being attempted on your WordPress Dashboard ? This post can help to minimize the effect with few simple tricks. <br><br></p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a class="post-comment" href="#"><i class="fa fa-comment"></i><span>15</span></a>
+                                                    <a class="readmore-btn" href="securewp.html">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- All Post Button -->
+                                <div class="animatedParent">
+                                    <a class="btn btn-cta allPost animated bounceIn" href="blog-archive.html">All Post</a>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!-- Blog Section Ends -->
+        
+        <!-- Contact Section Starts -->
+        <section id="contact">
+            <!-- Start Footer Top -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">                        
+                        <div class="contact-inner animatedParent">
+                            <h2 class="title">Contact</h2>
+                            <div class="col-md-12">
+                            <!-- Modal Item-->
+                                <div class="modal modal-small fade" id="thanks" tabindex="-1"  aria-hidden="true">
+                                    <div class="container-fluid portfolio-modal">
+                                        <a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
+                                        <div class="container text-center portfolio-modal-content"><br><br>
+                                            Your Download is on its way. <br>Hope to meet you in person !<br><strong>Thanks</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <figure class='book animated bounceIn slower'>
+                                <ul class='paperback_front'>
+                                    <li><p class="bookTitle">READ ME!</p><img src="images/bg.jpg" alt="" width="100%" height="100%"></li>
+                                    <li></li>
+                                </ul>
+                                <ul class='ruled_paper'>
+                                    <li></li>
+                                    <li>
+                                        <p class="booktext"><a href="Resume.pdf" download="Dibyanshu's Resume" target="_blank">Download My Resume</a></p>
+                                        <!--<a href="Resume.pdf" download="Dibyanshu's Resume" data-toggle="modal" data-target="#thanks">-->
+                                    </li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <ul class='paperback_back'>
+                                    <li><img src="images/bg.jpg" alt="" width="100%" height="100%"></li>
+                                    <li></li>
+                                </ul>
+                            </figure>
+                            <p>Questions, comment or concerns? This contact form is the best way to get in touch with me. Alternatively I can be reached at <em>dibyanshu.sunny@gmail.com</em>. Please feel free to contact me anytime of the day. You and your thoughts are welcomed !</p>
+                            <div class="row">
+                                <!-- Message Starts -->
+                                <article class="col-xs-12 col-md-6">
+                                    <form class="contact-form" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1E60FjOR-BAH5mZTKOk29-ES-o4hlWd5KrGxR741w1bs/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+                                        <div class="input-field">
+                                            <label class="input-label" for="contact-name">Name</label>
+                                            <input type="text" class="input-box" name="entry.30195375" id="entry.30195375">
+                                        </div>
+                                        <div class="input-field">
+                                            <label class="input-label" for="email">Email</label>
+                                            <input type="email" class="input-box" name="entry.831073373" id="entry.831073373">
+                                        </div>
+                                        <div class="input-field">
+                                            <label class="input-label" for="subject">Subject</label>
+                                            <input type="text" class="input-box" name="entry.906433826" id="entry.906433826">
+                                        </div>
+                                        <div class="input-field textarea-input">
+                                            <label class="input-label" for="textarea1">Message</label>
+                                            <textarea class="textarea" name="entry.1999539921" id="entry.1999539921"></textarea>
+                                        </div>
+                                        <button class="waves-effect submit-btn" type="submit" value="Submit">send message</button>
+                                    </form>
+                                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                                </article>
+                                <!-- Message Ends-->
+                                <!-- Map Starts-->
+                                <article class="col-xs-12 col-md-6">
+                                    <div class="contact-map">
+                                        <iframe src="https://www.google.com/maps/embed/v1/place?q=96A/9,+Bhuiya+Chowk+Rd,+Teacher+Colony,+Mehrauli+New+Delhi+Delhi+11070&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                                    </div>
+                                </article>
+                                <!-- Map Ends-->
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!-- Contact Section Ends -->
+        
+        <!-- Footer Starts -->
+        <footer id="footer" role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-inner">
+                            <!-- Bottom to Up Btn -->
+                            <a class="up-btn" href="#home"><i class="fa fa-chevron-circle-up"></i></a>
+                            <p class="design-info">Created by<a href="https://dibyanshusinha.github.io/">Dibyanshu</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Ends -->     
+        
+        
+        
+        
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src='js/css3-animate-it.js'></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/mixitup.js"></script>
+		<script src="js/appear.min.js" type="text/javascript"></script>
+		<script src="js/pro-bars-min.js" type="text/javascript"></script>
+        <script src="js/custom.js"></script>
+        <script type="text/javascript">var submitted=false;</script>
+        <script type="text/javascript">
+            $('#gform').on('submit', function(e) {
+                $('#gform *').fadeOut(2000);
+                $('#gform').prepend("<p class='text-center'><strong>Thanks for the note.<br> I will get back to you as soon as I can.</strong> </p>");
+            });
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+            (window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-76883135-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script>
+            $(window).on('load', function() {
+                $("#load-cover").hide();
+            });
+        </script>
+    </body>
+</html>
