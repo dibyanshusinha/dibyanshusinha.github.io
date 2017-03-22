@@ -160,17 +160,6 @@
 	}
 }
 
-@media only screen and (max-width: 860px) {
-	prev,
-	next,
-	prev2,
-	next2 {
-		/*left: 3%;
-margin-top: 20px;
-position: absolute;*/
-	}
-}
-
 @media only screen and (max-width: 468px) {
 	.timeline-date {
 		font-size: .8em !important;
