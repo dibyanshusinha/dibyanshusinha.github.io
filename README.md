@@ -10,7 +10,7 @@ Key features:
 * My projects in Portfolio
 * Proofessional summary along with some personal details
 * Extensive Details to understand me as a developer
-* Beautiful admin UI
+* My Blog
 
 
 
