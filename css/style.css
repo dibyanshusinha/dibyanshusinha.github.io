@@ -122,7 +122,7 @@ a:active {
 #resume,
 #blog,
 #testimonial,
-.about-inner {
+#about>.container-fluid {
 	overflow-x: hidden;
 }
 
@@ -167,6 +167,16 @@ a:active {
 
 .navbar-default {
 	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #1D1121;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -967,20 +977,12 @@ a:focus {
 /*--------------------*/
 
 #testimonial {
-	display: inline;
 	padding: 60px 0;
-	float: left;
 	width: 100%;
 	background-color: #1D1121;
 	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 400;
-}
-
-.testimonial-inner {
-	display: inline;
-	float: left;
-	width: 100%;
 }
 
 .testimonial-inner h2 {
@@ -992,16 +994,7 @@ a:focus {
 }
 
 .testimonial-slider-area {
-	display: inline;
-	float: left;
 	margin-top: 60px;
-	width: 100%;
-	position: relative;
-}
-
-.testimonial-slider {
-	display: inline;
-	float: left;
 	width: 100%;
 }
 
@@ -1009,67 +1002,49 @@ a:focus {
 /* Cutom Testimony */
 
 .equiList {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
+	padding-left: 25px;
 }
 
 .equiList-item {
-	display: flex;
-}
-
-.single-testimonial {
-	background-color: #fff;
-	border-radius: 2px;
+	background: #fff;
+	border-radius: 25px;
 	margin: 0.5rem 0.2rem;
+}
+
+.testimonial-author {
+	background: #3c2544;
+	border-radius: 0 0 20px 20px;
+	padding: 10px;
+}
+
+.testimonial-author-details {
+	position: absolute;
+	bottom: 25px;
+	left: 130px;
+}
+
+.testimonial-author-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 	overflow: hidden;
-	padding: 15px;
-	position: relative;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.testimonial-img {
-	display: inline;
-	float: left;
-	height: 150px;
-	width: 25%;
-}
-
-.testimonial-img img {
-	height: 100%;
+.testimonial-author-img img {
 	width: 100%;
+	height: 100%;
 }
 
 .testimonial-content {
-	float: left;
-	display: inline;
-	padding-left: 15px;
-	width: 75%;
-	line-height: 100%;
-}
-
-.testimonial-content h3 {
-	float: left;
-	font-size: 24px;
-	margin-bottom: 2px;
-	margin-top: 1px;
-	text-align: left;
-	width: 100%;
-	color: #136F63;
-}
-
-.testimonial-content>span {
-	color: #777777;
-	display: block;
-	font-size: 13px;
-	margin-top: 5%;
-	margin-bottom: 2%
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .testimonial-content p {
 	color: #777777;
 	font-style: italic;
 	line-height: 1.5em;
+	padding: 15px;
 }
 
 
@@ -1149,12 +1124,13 @@ a:focus {
 	overflow: hidden;
 }
 
-.post-comment {
+.post-date {
 	display: inline-block;
 	float: left;
+	padding-top: 4px;
 }
 
-.post-comment i {
+.post-date i {
 	display: inline-block;
 	float: left;
 	font-size: 20px;
@@ -1162,7 +1138,7 @@ a:focus {
 	margin-right: 3px;
 }
 
-.post-comment span {
+.post-date span {
 	display: inline-block;
 	font-size: 16px;
 }
@@ -1777,11 +1753,11 @@ textarea {
 	color: #fff;
 }
 
-.overlay-content .post-comment {
+.overlay-content .post-date {
 	float: none;
 }
 
-.overlay-content .post-comment:hover {
+.overlay-content .post-date:hover {
 	color: #fff !important;
 }
 

@@ -8,16 +8,16 @@ $(document).ready(function () {
 	owl.owlCarousel({
 		items: 4, //4 items above 1024px browser width
 		itemsDesktop: [1200, 3], //3 items between 1024px and 901px
-		itemsDesktopSmall: [992, 2], // betweem 900px and 601px
-		itemsTablet: [768, 1], //1 items between 600 and 0
+		itemsDesktopSmall: [900, 2], // betweem 900px and 601px
+		itemsTablet: [600, 1], //1 items between 600 and 0
 		itemsMobile: 1 // itemsMobile disabled - inherit from itemsTablet option
 	});
 	// Slide Navigation
-	jQuery(".next").bind("click touchstart", function () {
+	jQuery(".next").click(function () {
 		owl.trigger('owl.next');
 	});
 
-	jQuery(".prev").bind("click touchstart", function () {
+	jQuery(".prev").click(function () {
 		owl.trigger('owl.prev');
 	});
 
@@ -42,10 +42,10 @@ $(document).ready(function () {
 		itemsMobile: 1 // itemsMobile disabled - inherit from itemsTablet option
 	});
 	// Custom Navigation Events
-	$(".next2").bind("click touchstart", function () {
+	$(".next2").click(function () {
 		owl2.trigger('owl.next');
 	});
-	$(".prev2").bind("click touchstart", function () {
+	$(".prev2").click(function () {
 		owl2.trigger('owl.prev');
 	});
 
@@ -71,15 +71,17 @@ $(document).ready(function () {
 
 	// card click and reveals
 	$(function () {
-		$('.show').bind("click touchstart", function () {
+		$('.activator').click(function () {
 			var location = $(this).parent().parent().parent();
 			$('.card-reveal', location).slideToggle("slow");
 		});
 
-		$('.card-reveal .close').bind("click touchstart", function () {
+		$('.card-reveal .close').click(function () {
 			var location = $(this).parent().parent().parent();
 			$('.card-reveal', location).slideToggle("slow");
 		});
 	});
+
+	$('.testimonial-content').height($('.testimonial-content').height());
 
 });

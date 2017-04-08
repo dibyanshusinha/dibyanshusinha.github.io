@@ -1,0 +1,213 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header {
+	z-index: 999;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.center-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1%;
+}
+
+
+/*Navigation*/
+
+nav {
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.side-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 240px;
+}
+
+.side-nav li {
+	margin-top: 2px;
+}
+
+.brand-logo {
+	font-weight: bolder;
+}
+
+.side-nav .collapsible-body {
+	padding: 4% 2%;
+}
+
+.side-nav .collapsible-header {
+	height: 46px;
+}
+
+.my-purple {
+	background: #1D1121;
+	color: whitesmoke;
+}
+
+
+/*Title etc*/
+
+hr.thin {
+	border-width: thin;
+	margin: 5px;
+	border-color: rgba(34, 16, 111, 0.44);
+	border-radius: 10px;
+}
+
+
+/*Author*/
+
+.about {
+	font-size: 0.9em;
+	padding: 2px;
+	line-height: 1.6em;
+	font-weight: lighter;
+	color: #2e2735;
+	font-weight: bold;
+}
+
+main .about {
+	font-size: 1.3em;
+}
+
+
+/*Post*/
+
+#post h2 {
+	font-size: 2.5em;
+	font-weight: bolder;
+	line-height: 1.2em;
+}
+
+#post .banner-img img {
+	max-height: 500px;
+	min-height: 200px;
+}
+
+#post p {
+	font-size: 1.5rem;
+}
+
+#post .card-title {
+	font-weight: bolder;
+}
+
+#post .post-date {
+	font-weight: bold;
+	font-size: .8em;
+}
+
+#post .img {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#post .img img {
+	flex-grow: 1;
+	margin: 2px;
+	max-width: 100%;
+}
+
+
+/*Tabs*/
+
+.codeblocks {
+	margin-bottom: 25px;
+	margin-top: 35px;
+}
+
+pre {
+	max-height: 50em;
+}
+
+.tabs {
+	background-color: #192a46;
+}
+
+.tab .icon-large {
+	font-size: 2em;
+	line-height: 1.8em;
+}
+
+
+/*Related Text*/
+
+.related-posts .card {
+	background-color: #192a46;
+}
+
+.fancy {
+	overflow: hidden;
+	text-align: center;
+}
+
+.fancy:before,
+.fancy:after {
+	content: "";
+	display: inline-block;
+	height: 5px;
+	border-bottom: 1px solid rgba(34, 16, 111, 0.44);
+	border-top: 1px solid rgba(34, 16, 111, 0.44);
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.fancy:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+.fancy:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+
+/*Footer*/
+
+
+/*Responsiveness*/
+
+@media screen and (max-width: 1100px) .main-wrapper {
+	margin: 0 !important;
+	width: 100%;
+}
+
+@media screen and (min-width: 601px) {}
+
+@media screen and (min-width: 993px) {}
+
+@media screen and (max-width:600px) {
+	.brand-logo {
+		font-size: 1.5rem ! important;
+	}
+	#post h2 {
+		font-size: 1.5rem;
+		padding-left: 10px;
+	}
+	#post p {
+		font-size: 1.1rem;
+	}
+	#post .card-title {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:992px) {}
+
+@media (max-width:992px) and (min-width:601px) {}
