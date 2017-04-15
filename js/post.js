@@ -35,19 +35,4 @@ Prism.plugins.toolbar.registerButton('select-code', function (env) {
 
 	return button;
 });
-/**
- *  DISQUS CONFIGURATION*/
-
-var disqus_config = function () {
-	this.page.url = PAGE_URL; // Put the current url
-	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique id for the  blog
-	this.page.title = 'a unique small title for each page where Disqus is present';
-};
-
-(function () { // DON'T EDIT BELOW THIS LINE
-	var d = document,
-		s = d.createElement('script');
-	s.src = 'https://webappdeveloper.disqus.com/embed.js';
-	s.setAttribute('data-timestamp', +new Date());
-	(d.head || d.body).appendChild(s);
-})();
+var disqus_loaded = false;

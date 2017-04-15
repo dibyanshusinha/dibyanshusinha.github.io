@@ -49,37 +49,43 @@
 	.navbar-brand {
 		font-size: 1.6em;
 	}
-	
+
 	.home-inner>p {
 		font-size: 1.6em;
 	}
-	
+
 	.about-design .meTitle {
 		font-size: 2em;
 	}
+
 }
 @media only screen and (min-width: 768px) {
 	.home-title {
 		padding-top: 20px;
 		font-size: 5em;
 	}
-	
+
 	.about-design .meTitle {
 		font-size: 1.6em;
 	}
-	
+
 	.appme p {
 		opacity: 1;
 	}
-	
+
 	.about-design:hover .webme p,
 	.about-design:hover .trafficme p {
 		opacity: 1;
 	}
-	
+
 	#portfolio-list .mix {
-		width: 32.33%;
+		width: 30%;
 	}
+
+	.blog-post{
+		width: 30%
+	}
+
 }
 @media only screen and (max-width: 768px) {
 	.about-inner .introText {
@@ -90,11 +96,11 @@
 	.home-inner>p {
 		font-size: 1.45em;
 	}
-	
+
 	.appme p {
 		opacity: 1;
 	}
-	
+
 	.about-design:hover .webme p,
 	.about-design:hover .trafficme p {
 		opacity: 1;
@@ -104,21 +110,21 @@
 	.appme .meTitle {
 		top: 19em;
 	}
-	
+
 	.webme .meTitle {
 		top: 18em;
 		left: 9.5em;
 	}
-	
+
 	.trafficme .meTitle {
 		top: 20em;
 		left: -8.5em;
 	}
-	
+
 	.about-design:hover .webme .meTitle {
 		left: -5em;
 	}
-	
+
 	.about-design:hover .trafficme .meTitle {
 		left: 6em;
 	}
@@ -127,21 +133,21 @@
 	.appme .meTitle {
 		top: 17em;
 	}
-	
+
 	.webme .meTitle {
 		top: 16em;
 		left: 8em;
 	}
-	
+
 	.trafficme .meTitle {
 		top: 18em;
 		left: -7em;
 	}
-	
+
 	.about-design:hover .webme .meTitle {
 		left: -3.5em;
 	}
-	
+
 	.about-design:hover .trafficme .meTitle {
 		left: 4em;
 	}
@@ -155,21 +161,21 @@
 	.appme .meTitle {
 		top: 11em;
 	}
-	
+
 	.webme .meTitle {
 		top: 10em;
 		left: 9em;
 	}
-	
+
 	.trafficme .meTitle {
 		top: 12em;
 		left: -8em;
 	}
-	
+
 	.about-design:hover .webme .meTitle {
 		left: -4.7em;
 	}
-	
+
 	.about-design:hover .trafficme .meTitle {
 		left: 5.5em;
 	}
@@ -184,29 +190,33 @@
 		padding-top: 20px;
 		font-size: 3em;
 	}
-	
+
 	.home-inner>p {
 		font-size: 1.2em;
 	}
-	
+
 	.about-design .meTitle {
 		font-size: 1.3em;
 		opacity: 1;
 	}
-	
+
 	.webme p,
 	.trafficme p {
 		top: 0em;
 	}
-	
+
 	.webme p,
 	.trafficme p,
 	.appme p {
 		display: none;
 	}
-	
+
 	#portfolio-list .mix {
-		width: 48.5%;
+		width: 45%;
+	}
+
+	.blog-post{
+		width: 45%;
 	}
 }
 @media only screen and (max-width: 468px) and (min-width: 300px) {
@@ -214,8 +224,16 @@
 		padding-top: 20px;
 		font-size: 2em;
 	}
-	
+
 	.home-inner>p {
 		font-size: 1em;
+	}
+}
+@media only screen and (max-width: 412px){
+	.boldheading {
+		font-size: 2.5em;
+	}
+	.education-timeline .even .timeline-marker {
+		margin-top: -4em;
 	}
 }

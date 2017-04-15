@@ -25,7 +25,13 @@ $(document).ready(function () {
 	/*  4. PORTFOLIO SLIDER
 	/* ----------------------------------------------------------- */
 
-	jQuery('#portfolio-list').mixItUp();
+	var containerEl = document.querySelector('#portfolio-list');
+	var mixer = mixitup(containerEl, {
+		load: { sort: 'place:asc' },
+		animation: {
+			animateResizeTargets: true
+		}
+	});
 
 
 	/* ----------------------------------------------------------- */

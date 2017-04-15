@@ -15,7 +15,7 @@ Tags: Portfolio of Dibyanshu, a freelance web developer, mobile app developer, i
 ---------------------------------------------------------------
 
 ==================================================
-  
+
   ##
 */
 
@@ -41,13 +41,13 @@ COPYING ???
 IMITATION IS THE BEST FORM OF FLATTERY
 AM HAPPY YOU ARE FLATTERED.
 
-HOPE, ONE DAY YOU MIGHT LEARN TO CREATE YOUR OWN ! 
+HOPE, ONE DAY YOU MIGHT LEARN TO CREATE YOUR OWN !
 ---------------------------------------------------
 
 ===================================================================================================================================================================================================================
 
 ===================================================================================================================================================================================================================
-  
+
   ##
 */
 
@@ -93,7 +93,9 @@ a:active {
 .hoz-center {
 	margin: 0 auto;
 }
-
+.upper{
+	text-transform: uppercase;
+}
 .btn-cta {
 	background: #47527C;
 	padding: 15px 35px;
@@ -674,7 +676,7 @@ a:focus {
 	margin-top: 30px;
 }
 
-#education .row.first {
+#education .row:first-child {
 	margin-top: 10px;
 }
 
@@ -840,19 +842,18 @@ a:focus {
 }
 
 #portfolio-list {
-	display: inline;
-	float: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	margin-left: -1%;
 	width: 100%;
 }
 
 #portfolio-list .mix {
-	display: none;
-	float: left;
 	height: 320px;
-	margin-bottom: 1.33%;
-	margin-left: 1%;
-	width: 100%;
+	margin: 1%;
+	width: 96%;
+	flex-grow: 1;
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
@@ -1076,11 +1077,24 @@ a:focus {
 	margin-top: 50px;
 	width: 100%;
 }
+.blog-block{
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.equal-height>.equal-height-child{
+	height: 100%;
+	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
 .blog-post {
-	display: inline;
-	float: left;
-	width: 100%;
+	width: 96%;
+	flex-grow: 1;
+	margin: 1%;
 }
 
 .blog-post-content {
@@ -1165,6 +1179,7 @@ a:focus {
 .allPost {
 	padding: 10px 15px;
 	font-size: 14px;
+	margin: 1%;
 }
 
 

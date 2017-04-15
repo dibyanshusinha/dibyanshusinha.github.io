@@ -1,0 +1,29 @@
+- name: all
+  class: all
+
+- name: Html
+  class: .html
+
+- name: angularJs
+  class: .angularJs
+
+- name: wordPress
+  class: .wordPress
+
+- name: windows
+  class: .windows
+
+- name: android
+  class: .android
+
+- name: ios
+  class: .ios
+
+- name: java
+  class: .java
+
+- name: php
+  class: .php
+
+- name: muse
+  class: .muse

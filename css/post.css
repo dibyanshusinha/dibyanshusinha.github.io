@@ -147,7 +147,15 @@ pre {
 .related-posts .card {
 	background-color: #192a46;
 }
-
+.related-posts .equal-width article:first-child .card-action{
+	text-align: left;
+}
+.related-posts .equal-width article .card-action{
+	text-align: center;
+}
+.related-posts .equal-width article:last-child .card-action{
+	text-align: right;
+}
 .fancy {
 	overflow: hidden;
 	text-align: center;
@@ -175,9 +183,35 @@ pre {
 	margin-right: -50%;
 }
 
+.equal-width{
+		display: flex;
+		flex-flow: row wrap;
+		align-items: stretch;
+	  justify-content: space-between;
+}
+
+.equal-width-child{
+	width: 96%;
+	flex-grow: 1;
+	margin: 1%;
+}
+
+.equal-height>.equal-height-child{
+	height: 100%;
+	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*comments section*/
+.comments{
+	padding: 30px 20px;
+}
 
 /*Footer*/
-
+footer{
+	min-height: 20px;
+}
 
 /*Responsiveness*/
 
@@ -186,9 +220,17 @@ pre {
 	width: 100%;
 }
 
-@media screen and (min-width: 601px) {}
+@media screen and (min-width: 601px) {
+	.equal-width-child{
+		width: 44%;
+	}
+}
 
-@media screen and (min-width: 993px) {}
+@media screen and (min-width: 993px) {
+	.equal-width-child{
+		width: 31%;
+	}
+}
 
 @media screen and (max-width:600px) {
 	.brand-logo {
