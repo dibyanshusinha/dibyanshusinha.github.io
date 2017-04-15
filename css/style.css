@@ -1039,8 +1039,9 @@ a:focus {
 }
 
 .testimonial-content {
-	display: table-cell;
-	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonial-content p {
