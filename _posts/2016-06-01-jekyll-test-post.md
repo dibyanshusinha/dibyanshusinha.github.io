@@ -13,7 +13,7 @@ author: Dibyanshu
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cupiditate rerum quibusdam sint. Itaque enim dolorum quas illum quaerat nobis voluptas architecto suscipit officiis debitis eaque, placeat ipsum non, excepturi nisi quos iusto, dolorem mollitia? A quia dolore laudantium odio illo, quibusdam laboriosam autem quos quasi, cum ipsam nemo rerum.
 
 
-<div class="img"><img src="http://dibyanshusinha.github.io/images/pattern1.jpg"> <img src="http://dibyanshusinha.github.io/images/pattern1.jpg"></div>
+<div class="img"><img src="//dibyanshusinha.github.io/images/pattern1.jpg"> <img src="//dibyanshusinha.github.io/images/pattern1.jpg"></div>
 
 Corporis soluta fuga repellat culpa corrupti laudantium ad ex quaerat veritatis maxime aut aspernatur, minus eos tenetur quis ipsa quos maiores tempora, sunt. Aliquam saepe impedit eaque iusto atque iste perferendis dicta asperiores libero doloremque delectus natus ipsum omnis dolor distinctio aliquid itaque nulla animi, iure repellat tempore dolore unde!
 
@@ -25,7 +25,7 @@ Officia dolor laborum provident obcaecati reiciendis odio, eligendi voluptatem q
     <li class="tab"><a class="active" href="#htmls">HTML</a></li>
   </ul>
   <div id="htmls">
-    <pre class="line-numbers" data-start="-1" data-src="http://dibyanshusinha.github.io/blog-archive.html">
+    <pre class="line-numbers" data-start="-1" data-src="//dibyanshusinha.github.io/blog-archive.html">
     </pre>
   </div>
 </aside>

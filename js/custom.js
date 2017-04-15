@@ -21,13 +21,17 @@ $(document).ready(function () {
 		owl.trigger('owl.prev');
 	});
 
+
+
 	/* ----------------------------------------------------------- */
 	/*  4. PORTFOLIO SLIDER
 	/* ----------------------------------------------------------- */
 
 	var containerEl = document.querySelector('#portfolio-list');
 	var mixer = mixitup(containerEl, {
-		load: { sort: 'place:asc' },
+		load: {
+			sort: 'place:asc'
+		},
 		animation: {
 			animateResizeTargets: true
 		}
@@ -90,4 +94,17 @@ $(document).ready(function () {
 
 	$('.testimonial-content').height($('.testimonial-content').height());
 
+});
+
+
+
+
+//declare globally
+function showPortfolioDetails(portfolio) {
+	$(portfolio).modal('show');
+};
+
+
+$(window).on('load', function () {
+	$("#load-cover").hide();
 });

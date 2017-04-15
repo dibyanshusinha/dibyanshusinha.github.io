@@ -93,9 +93,11 @@ a:active {
 .hoz-center {
 	margin: 0 auto;
 }
-.upper{
+
+.upper {
 	text-transform: uppercase;
 }
+
 .btn-cta {
 	background: #47527C;
 	padding: 15px 35px;
@@ -1077,18 +1079,19 @@ a:focus {
 	margin-top: 50px;
 	width: 100%;
 }
-.blog-block{
+
+.blog-block {
 	display: flex;
 	flex-flow: row wrap;
-  justify-content: space-between;
+	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
-.equal-height>.equal-height-child{
+.equal-height>.equal-height-child {
 	height: 100%;
 	display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .blog-post {

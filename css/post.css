@@ -147,15 +147,19 @@ pre {
 .related-posts .card {
 	background-color: #192a46;
 }
-.related-posts .equal-width article:first-child .card-action{
+
+.related-posts .equal-width article:first-child .card-action {
 	text-align: left;
 }
-.related-posts .equal-width article .card-action{
+
+.related-posts .equal-width article .card-action {
 	text-align: center;
 }
-.related-posts .equal-width article:last-child .card-action{
+
+.related-posts .equal-width article:last-child .card-action {
 	text-align: right;
 }
+
 .fancy {
 	overflow: hidden;
 	text-align: center;
@@ -183,35 +187,40 @@ pre {
 	margin-right: -50%;
 }
 
-.equal-width{
-		display: flex;
-		flex-flow: row wrap;
-		align-items: stretch;
-	  justify-content: space-between;
+.equal-width {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+	justify-content: space-between;
 }
 
-.equal-width-child{
+.equal-width-child {
 	width: 96%;
 	flex-grow: 1;
 	margin: 1%;
 }
 
-.equal-height>.equal-height-child{
+.equal-height>.equal-height-child {
 	height: 100%;
 	display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
+
 /*comments section*/
-.comments{
+
+.comments {
 	padding: 30px 20px;
 }
 
+
 /*Footer*/
-footer{
+
+footer {
 	min-height: 20px;
 }
+
 
 /*Responsiveness*/
 
@@ -221,13 +230,13 @@ footer{
 }
 
 @media screen and (min-width: 601px) {
-	.equal-width-child{
+	.equal-width-child {
 		width: 44%;
 	}
 }
 
 @media screen and (min-width: 993px) {
-	.equal-width-child{
+	.equal-width-child {
 		width: 31%;
 	}
 }

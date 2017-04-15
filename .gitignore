@@ -1,0 +1,8 @@
+# Created by https://dibyanshusinha.github.io
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# End of https://dibyanshusinha.github.io

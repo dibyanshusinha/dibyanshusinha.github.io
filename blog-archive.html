@@ -1,33 +1,32 @@
----
-layout: blog
+--- 
+layout: blog 
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-  <article class="post equal-height mix {{post.category}}" data-keyWords="{{post.keywords}}">
-    <div class="card hoverable small-margin equal-height-child">
-      <div class="post-box">
-        <div class="card-image">
-          <img src="{{post.mainimage}}">
-        </div>
-      </div>
-      <div class="card-content">
-        <span class="card-title">
+	{% for post in site.posts %}
+	<article class="post equal-height mix {{post.category}}" data-keyWords="{{post.keywords}}">
+		<div class="card hoverable small-margin equal-height-child">
+			<div class="post-box">
+				<div class="card-image">
+					<img src="{{post.mainimage | relative_url}}">
+				</div>
+			</div>
+			<div class="card-content">
+				<span class="card-title">
         {{post.title}}<h6 class="grey-text right">{{post.date | date: "%d %B %Y"}}</h6></span>
-        <p>{{post.description}}</p>
-      </div>
-      <div class="card-action">
-        <a class="btn-floating waves-effect waves-light purple lighten-3"><i class="material-icons">loyalty</i></a>
-        <span class="tag">
+				<p>{{post.description}}</p>
+			</div>
+			<div class="card-action">
+				<a class="btn-floating waves-effect waves-light purple lighten-3"><i class="material-icons">loyalty</i></a>
+				<span class="tag">
           {% for tag in post.tags%}
           <span class="">
             {{tag}},
-          </span>
-          {% endfor %}
-        </span>
-        <a class="btn-floating hoverable my-blue right" href="{{post.url}}"><i class="material-icons">label</i></a>
-      </div>
-    </div>
-  </article>
-  {% endfor %}
+          </span> {% endfor %}
+				</span>
+				<a class="btn-floating hoverable my-blue right" href="{{post.url}}"><i class="material-icons">label</i></a>
+			</div>
+		</div>
+	</article>
+	{% endfor %}
 </div>

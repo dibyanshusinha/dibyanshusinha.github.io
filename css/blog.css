@@ -58,11 +58,11 @@ main {
 	padding: 0 1%;
 }
 
-.equal-height>.equal-height-child{
+.equal-height>.equal-height-child {
 	height: 100%;
 	display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .intro {

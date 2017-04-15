@@ -1,165 +1,162 @@
----
-layout: main
+--- 
+layout: main 
 ---
 <!-- Resume Section Starts -->
 <section id="resume">
-  <!-- Skills Starts -->
-  <article id="skill">
-    <div class="container">
-      <div class="topSpace skill-inner animatedParent">
-        <h2 class="title animated bounceInDown">Skills</h2>
-        <p class="introText animated bounceInLeft slow">Writing clean and well documented codes is not an option: it's my biological requirement. I like my code to be elegant and efficient. Although talent feels and looks predestined, in fact we have a good deal of control over what skills we develop. <br>That productive, uncomfortable terrain located just beyond our current abilities, where our reach exceeds our grasp, struggling in certain targeted ways—operating at the edges of our ability, where we make mistakes—makes us smarter. That's when we are skilled !</p>
-      </div>
-      <article class="skill-progress-bar">
-        {% for skill in site.data.skills %}
-        <span>{{skill.name}}</span>
-        <div class="pro-bar-container skill-body">
-          <div class="pro-bar bar-{{skill.rate}} skill-face" data-pro-bar-percent="{{skill.rate}}" data-pro-bar-delay="{{skill.delay}}"></div>
-        </div>
-        {% endfor %}
-      </article>
-    </div>
-  </article>
-  <!-- Skills Ends -->
-  <div class="clearfix"></div>
-		<!-- Experience Starts -->
-		<article id="experience">
-			<div class="container">
-				<article class="experience-inner introText animatedParent">
-					<h2 class="title animated fadeInLeftShort">Experience</h2>
-					<p class="animated fadeInUpShort slowest">I never dreamt of being a coder, I used to run away from it even in my dreams until one fine morning- I had an idea...and the desire to make it real was irresistible. Instead of getting help from friends as I always used to, I choose to implement it from scratch all by myself even though I knew nothing about it. As I kept struggling, while learning it...it became so natural and the thirst of learning itself became my biggest achievement till date. That was the day I learnt the joy of creation itself and now I can't distance myself from it !</p>
-          <div id="owl-carousel" class="experience-slider row">
-          {% for exp in site.experiences %}
-          <article class="col-xs-12">
-            <div class="card">
-              <h2 class="experience-title">{{exp.period}}</h2>
-              <div class="card-image">
-                <img class="activator" src="{{exp.image}}">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator reveal-title">{{exp.title}}<i class="fa fa-ellipsis-v show"></i></span>
-                <p class="card-subtitle">{{exp.employer}}</p>
-              </div>
-              <!-- card actions -->
-              <div class="card-reveal">
-                <span class="card-title reveal-title">{{exp.h-title}}<br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
-                <a href="{{exp.subtitle-link}}" target="_blank" class="card-subtitle">{{exp.h-subtitle}}</a>
-                <p>{{exp.content}}</p>
-              </div>
-              <!-- card reveal -->
-            </div>
-          </article>
-          {% endfor %}
-          </div>
-					<!-- owl navigation -->
-					<div class="customNavigation">
-						<a class="prev btn-floating waves-effect waves-light pull-left"><i class="fa fa-chevron-circle-left"></i></a>
-						<a class="next btn-floating waves-effect waves-light pull-right"><i class="fa fa-chevron-circle-right"></i></a>
-						<div class="clearfix"></div>
-					</div>
-				</article>
+	<!-- Skills Starts -->
+	<article id="skill">
+		<div class="container">
+			<div class="topSpace skill-inner animatedParent">
+				<h2 class="title animated bounceInDown">Skills</h2>
+				<p class="introText animated bounceInLeft slow">Writing clean and well documented codes is not an option: it's my biological requirement. I like my code to be elegant and efficient. Although talent feels and looks predestined, in fact we have a good deal of control over what skills we develop. <br>That productive, uncomfortable terrain located just beyond our current abilities, where our reach exceeds our grasp, struggling in certain targeted ways—operating at the edges of our ability, where we make mistakes—makes us smarter. That's when we are skilled !</p>
 			</div>
-		</article>
-		<!-- Experience Ends -->
-		<div class="clearfix"></div>
-		<!-- Education Starts -->
-		<article id="education">
-			<div class="container">
+			<article class="skill-progress-bar">
+				{% for skill in site.data.skills %}
+				<span>{{skill.name}}</span>
+				<div class="pro-bar-container skill-body">
+					<div class="pro-bar bar-{{skill.rate}} skill-face" data-pro-bar-percent="{{skill.rate}}" data-pro-bar-delay="{{skill.delay}}"></div>
+				</div>
+				{% endfor %}
+			</article>
+		</div>
+	</article>
+	<!-- Skills Ends -->
+	<div class="clearfix"></div>
+	<!-- Experience Starts -->
+	<article id="experience">
+		<div class="container">
+			<article class="experience-inner introText animatedParent">
+				<h2 class="title animated fadeInLeftShort">Experience</h2>
+				<p class="animated fadeInUpShort slowest">I never dreamt of being a coder, I used to run away from it even in my dreams until one fine morning- I had an idea...and the desire to make it real was irresistible. Instead of getting help from friends as I always used to, I choose to implement it from scratch all by myself even though I knew nothing about it. As I kept struggling, while learning it...it became so natural and the thirst of learning itself became my biggest achievement till date. That was the day I learnt the joy of creation itself and now I can't distance myself from it !</p>
+				<div id="owl-carousel" class="experience-slider row">
+					{% for exp in site.experiences %}
+					<article class="col-xs-12">
+						<div class="card">
+							<h2 class="experience-title">{{exp.period}}</h2>
+							<div class="card-image">
+								<img class="activator" src="{{exp.image}}">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator reveal-title">{{exp.title}}<i class="fa fa-ellipsis-v show"></i></span>
+								<p class="card-subtitle">{{exp.employer}}</p>
+							</div>
+							<!-- card actions -->
+							<div class="card-reveal">
+								<span class="card-title reveal-title">{{exp.h-title}}<br><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></span>
+								<a href="{{exp.subtitle-link}}" target="_blank" class="card-subtitle">{{exp.h-subtitle}}</a>
+								<p>{{exp.details}}</p>
+							</div>
+							<!-- card reveal -->
+						</div>
+					</article>
+					{% endfor %}
+				</div>
+				<!-- owl navigation -->
+				<div class="customNavigation">
+					<a class="prev btn-floating waves-effect waves-light pull-left"><i class="fa fa-chevron-circle-left"></i></a>
+					<a class="next btn-floating waves-effect waves-light pull-right"><i class="fa fa-chevron-circle-right"></i></a>
+					<div class="clearfix"></div>
+				</div>
+			</article>
+		</div>
+	</article>
+	<!-- Experience Ends -->
+	<div class="clearfix"></div>
+	<!-- Education Starts -->
+	<article id="education">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title animatedParent">
+						<h1 class="boldheading animated fadeInUp slow">EDUCATION</h1>
+					</div>
+				</div>
+			</div>
+			<div class="education-timeline">
+				{% for timestamp in site.data.education reversed%} {% assign mod = forloop.index | modulo: 2 %} {% if mod != 0 %}
+				<!-- odd -->
 				<div class="row">
-					<div class="col-md-12">
-						<div class="title animatedParent">
-							<h1 class="boldheading animated fadeInUp slow">EDUCATION</h1>
+					<div class="col-md-6 col-xs-6 animatedParent">
+						<div class="timeline-divider animated bounceIn">
+							<i class="fa fa-check"></i>
+						</div>
+						<div class="timeline-details left animated fadeInLeft slow delay-500">
+							<div class="details">
+								<h2 class="heading former">{{timestamp.heading}}</h2>
+								<h3 class="subheading former">{{timestamp.subheading}}</h3>
+								<p class="former">{{timestamp.details}}</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-6 animatedParent">
+						<div class="timeline-marker right pull-left animated fadeInRight slow delay-500">
+							<div class="timeline-date">
+								{{timestamp.name}}
+							</div>
+							<div class="arrow-left">
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="education-timeline">
-					{% for timestamp in site.data.education reversed%}
-			    	{% assign mod = forloop.index | modulo: 2 %}
-			    		{% if mod != 0 %}
-				        <!-- odd -->
-								<div class="row">
-									<div class="col-md-6 col-xs-6 animatedParent">
-										<div class="timeline-divider animated bounceIn">
-											<i class="fa fa-check"></i>
-										</div>
-										<div class="timeline-details left animated fadeInLeft slow delay-500">
-											<div class="details">
-												<h2 class="heading former">{{timestamp.heading}}</h2>
-												<h3 class="subheading former">{{timestamp.subheading}}</h3>
-												<p class="former">{{timestamp.details}}</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 col-xs-6 animatedParent">
-										<div class="timeline-marker right pull-left animated fadeInRight slow delay-500">
-											<div class="timeline-date">
-												{{timestamp.name}}
-											</div>
-											<div class="arrow-left">
-											</div>
-										</div>
-									</div>
-								</div>
-			    		{% else %}
-				        <!-- even -->
-								<div class="even row">
-									<div class="col-md-6 col-xs-6 animatedParent">
-										<div class="timeline-divider animated bounceIn">
-											<i class="fa fa-times"></i>
-										</div>
-										<div class="timeline-marker left pull-right animated fadeInLeft slow delay-500">
-											<div class="timeline-date">
-												{{timestamp.name}}
-											</div>
-											<div class="arrow-right">
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 col-xs-6 animatedParent">
-										<div class="timeline-details right animated fadeInRight slow delay-500">
-											<div class="details">
-												<h2 class="heading">{{timestamp.heading}}</h2>
-												<h3 class="subheading">{{timestamp.subheading}}</h3>
-												<p>{{timestamp.details}}</p>
-											</div>
-										</div>
-									</div>
-								</div>
-			    		{% endif %}
-					{% endfor %}
-				</div>
-			</div>
-		</article>
-		<!-- Education Ends -->
-		<div class="clearfix"></div>
-	</section>
-	<!-- Resume Section Ends -->
-
-	<!-- Portfolio Section Starts -->
-	<section id="portfolio">
-		<!-- Portfolio Banner Starts -->
-		<article class="portfolio-top">
-			<div class="container">
-				<div class="portfolio-top-inner animatedParent">
-					<h2 class="title animated fadeInLeft ">Portfolio</h2>
-					<div class="controls">
-						{% for button in site.data.portfoliobuttons %}
-						<button class="filter waves-effect waves-light btn" data-filter="{{button.class}}">{{button.name}}</button>
-						{% endfor %}
+				{% else %}
+				<!-- even -->
+				<div class="even row">
+					<div class="col-md-6 col-xs-6 animatedParent">
+						<div class="timeline-divider animated bounceIn">
+							<i class="fa fa-times"></i>
+						</div>
+						<div class="timeline-marker left pull-right animated fadeInLeft slow delay-500">
+							<div class="timeline-date">
+								{{timestamp.name}}
+							</div>
+							<div class="arrow-right">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-6 animatedParent">
+						<div class="timeline-details right animated fadeInRight slow delay-500">
+							<div class="details">
+								<h2 class="heading">{{timestamp.heading}}</h2>
+								<h3 class="subheading">{{timestamp.subheading}}</h3>
+								<p>{{timestamp.details}}</p>
+							</div>
+						</div>
 					</div>
 				</div>
+				{% endif %} {% endfor %}
 			</div>
-		</article>
-		<!-- Portfolio Banner Ends -->
-		<!-- Portfolio Content Starts -->
-		<article class="portfolio-bottom">
-			<div class="container">
-				<div class="row">
+		</div>
+	</article>
+	<!-- Education Ends -->
+	<div class="clearfix"></div>
+</section>
+<!-- Resume Section Ends -->
+
+<!-- Portfolio Section Starts -->
+<section id="portfolio">
+	<!-- Portfolio Banner Starts -->
+	<article class="portfolio-top">
+		<div class="container">
+			<div class="portfolio-top-inner animatedParent">
+				<h2 class="title animated fadeInLeft ">Portfolio</h2>
+				<div class="controls">
+					{% for button in site.data.portfoliobuttons %}
+					<button class="filter waves-effect waves-light btn" data-filter="{{button.class}}">{{button.name}}</button> {% endfor %}
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- Portfolio Banner Ends -->
+	<!-- Portfolio Content Starts -->
+	<article class="portfolio-bottom">
+		<div class="container">
+			<div class="row">
+				<!-- Modal Item-->
+				<div class="col-md-12">
+					{% for portfolio in site.portfolios %}
 					<!-- Modal Item-->
-					<div class="col-md-12">
-            {% for portfolio in site.portfolios %}
-						<!-- Modal Item-->
-						<div class="modal fade" id="portfolioModal{{portfolio.place}}" tabindex="-1" aria-hidden="true">
+					<div class="modal fade" id="portfolioModal{{portfolio.place}}" tabindex="-1" aria-hidden="true">
+						<div>
 							<div class="container-fluid portfolio-modal">
 								<a class="close modal-exit" data-dismiss="modal" aria-hidden="true">&times;</a>
 								<div class="clearfix"></div>
@@ -179,110 +176,111 @@ layout: main
 								</div>
 							</div>
 						</div>
-            {% endfor %}
 					</div>
-					<div class="portfolio-bottom-inner">
-						<div id="portfolio-list">
-              {% for portfolio in site.portfolios %}
-							<div class="mix {{portfolio.category}} " data-place="{{portfolio.place}}">
-								<a>
-									<img src="{{portfolio.image}}" alt="img">
-									<i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal{{portfolio.place}}"></i>
-								</a>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="portfolio-bottom-inner">
+				<div id="portfolio-list">
+					{% for portfolio in site.portfolios %}
+					<div class="mix {{portfolio.category}} " data-place="{{portfolio.place}}">
+						<a>
+							<img src="{{portfolio.image}}" alt="img">
+							<i class="fa fa-eye" onclick="showPortfolioDetails('#portfolioModal{{portfolio.place}}')"></i>
+						</a>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- Portfolio Contents Ends -->
+</section>
+<!-- Portfolio Section Ends -->
+
+<!-- Tesimonial Section Starts -->
+<section id="testimonial">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<article class="testimonial-inner animatedParent">
+					<h2 class="title animated fadeInLeftShort">Testimonial</h2>
+					<p class=" animated fadeInUpShort slowest">I have had an amazing journey and learning experience from most of my clients and have received tons of awesome feedback and suggestions.<br>Here's what they had to say –</p>
+					<!-- Start Testimonial Slider -->
+					<article class="testimonial-slider-area">
+						<div id="owl-carousel2" class="testimonial-slider row equiList">
+							{% for testimony in site.testimonials %}
+							<div class="equiList-item">
+								<div class="testimonial-content">
+									{{testimony.content}}
+								</div>
+								<div class="testimonial-author">
+									<div class="testimonial-author-img"> <img class="img-responsive" src="{{testimony.author-img}}" alt="img"></div>
+									<div class="testimonial-author-details">
+										<p><strong>{{testimony.name}}</strong><br>{{testimony.designation}}<br><strong>{{testimony.location}}</strong></p>
+									</div>
+								</div>
 							</div>
 							{% endfor %}
+						</div>
+						<div class="customNavigation">
+							<a class="prev2 btn-floating waves-effect waves-light pull-left"><i class="fa fa-chevron-circle-left"></i></a>
+							<a class="next2 btn-floating waves-effect waves-light pull-right"><i class="fa fa-chevron-circle-right"></i></a>
+							<div class="clearfix"></div>
+						</div>
+					</article>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Testimonial Section Ends -->
+
+<!-- Blog Section Starts -->
+<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="blog-inner introText animatedParent">
+					<h2 class="title animated bounceInDown">Blog</h2>
+					<p class="animated bounceInLeft slow">We only get few hours in a day to be able to spend time on learning and since there are so many alternatives to choose from, picking the right resource can really be confusing. Let us learn from each other's experience. Here are few of my experiences I would like to share. Hope it will be of help to you!</p>
+					<!-- Start Blog area -->
+					<div class="blog-area">
+						<div class="blog-block">
+							{% for post in site.posts limit:3 %}
+							<div class="blog-post equal-height">
+								<div class="card equal-height-child">
+									<div class="card-image">
+										<img src="{{post.mainimage}}">
+									</div>
+									<div class="card-content blog-post-content">
+										<h2><a href="{{post.url}}">{{post.title}}</a></h2>
+										<div class="meta-media">
+											<div class="single-meta">
+												Post By <a href="#">{{post.author}}</a>
+											</div>
+											<div class="single-meta">
+												Category : <a class="upper" href="#">{{post.category}}</a>
+											</div>
+										</div>
+										<p>{{post.description}}</p>
+									</div>
+									<div class="card-action">
+										<a class="post-date" href="#"><i class="fa fa-calendar"></i><span>{{post.date | date: "%d/%m/%y" }}</span></a>
+										<a class="readmore-btn" href="{{post.url}}">Read More</a>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+						<!-- All Post Button -->
+						<div class="animatedParent">
+							<a class="btn btn-cta allPost animated bounceIn" href="blog-archive">All Post</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</article>
-		<!-- Portfolio Contents Ends -->
-	</section>
-	<!-- Portfolio Section Ends -->
-
-	<!-- Tesimonial Section Starts -->
-	<section id="testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<article class="testimonial-inner animatedParent">
-						<h2 class="title animated fadeInLeftShort">Testimonial</h2>
-						<p class=" animated fadeInUpShort slowest">I have had an amazing journey and learning experience from most of my clients and have received tons of awesome feedback and suggestions.<br>Here's what they had to say –</p>
-						<!-- Start Testimonial Slider -->
-						<article class="testimonial-slider-area">
-              <div id="owl-carousel2" class="testimonial-slider row equiList">
-                {% for testimony in site.testimonials  %}
-                <div class="equiList-item">
-                  <div class="testimonial-content">
-                    {{testimony.content}}
-                  </div>
-                  <div class="testimonial-author">
-                    <div class="testimonial-author-img"> <img class="img-responsive" src="{{testimony.author-img}}" alt="img"></div>
-                    <div class="testimonial-author-details">
-                      <p><strong>{{testimony.name}}</strong><br>{{testimony.designation}}<br><strong>{{testimony.location}}</strong></p>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-							<div class="customNavigation">
-								<a class="prev2 btn-floating waves-effect waves-light pull-left"><i class="fa fa-chevron-circle-left"></i></a>
-								<a class="next2 btn-floating waves-effect waves-light pull-right"><i class="fa fa-chevron-circle-right"></i></a>
-								<div class="clearfix"></div>
-							</div>
-						</article>
-					</article>
-				</div>
-			</div>
 		</div>
-	</section>
-	<!-- Testimonial Section Ends -->
-
-  <!-- Blog Section Starts -->
-  <section id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="blog-inner introText animatedParent">
-            <h2 class="title animated bounceInDown">Blog</h2>
-            <p class="animated bounceInLeft slow">We only get few hours in a day to be able to spend time on learning and since there are so many alternatives to choose from, picking the right resource can really be confusing. Let us learn from each other's experience. Here are few of my experiences I would like to share. Hope it will be of help to you!</p>
-            <!-- Start Blog area -->
-            <div class="blog-area">
-              <div class="blog-block">
-                {% for post in site.posts limit:3 %}
-                  <div class="blog-post equal-height">
-                    <div class="card equal-height-child">
-                      <div class="card-image">
-                        <img src="{{post.mainimage}}">
-                      </div>
-                      <div class="card-content blog-post-content">
-                        <h2><a href="blog-single.html">{{post.title}}</a></h2>
-                        <div class="meta-media">
-                          <div class="single-meta">
-                            Post By <a href="#">{{post.author}}</a>
-                          </div>
-                          <div class="single-meta">
-                            Category : <a class="upper" href="#">{{post.category}}</a>
-                          </div>
-                        </div>
-                        <p>{{post.description}}</p>
-                      </div>
-                      <div class="card-action">
-                        <a class="post-date" href="#"><i class="fa fa-calendar"></i><span>{{post.date | date: "%d/%m/%y" }}</span></a>
-                        <a class="readmore-btn" href="{{post.url}}">Read More</a>
-                      </div>
-                    </div>
-                  </div>
-                {% endfor %}
-              </div>
-              <!-- All Post Button -->
-              <div class="animatedParent">
-                <a class="btn btn-cta allPost animated bounceIn" href="blog-archive.html">All Post</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Blog Section Ends -->
+	</div>
+</section>
+<!-- Blog Section Ends -->

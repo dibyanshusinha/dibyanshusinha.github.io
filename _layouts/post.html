@@ -12,12 +12,12 @@
 <title>{{page.title}} | Code Capsule</title>
 <meta name="author" content="Dibyanshu">
 <!-- Favicon -->
-<link rel="shortcut icon" href={{"/images/favicon.ico" | relative_url }}  />
+<link rel="shortcut icon" href={{ "/images/favicon.ico" | relative_url }} />
 <!-- Style-->
-<link rel="stylesheet" href={{"css/materialize.css" | relative_url }} >
+<link rel="stylesheet" href={{ "css/materialize.css" | relative_url }}>
 <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="{{'css/prism.css' | relative_url }}"  rel="stylesheet">
-<link href="{{'css/post.css' | relative_url }}"  rel="stylesheet">
+<link href="{{'css/prism.css' | relative_url }}" rel="stylesheet">
+<link href="{{'css/post.css' | relative_url }}" rel="stylesheet">
 <script>
 	(function(i, s, o, g, r, a, m) {
 		i['GoogleAnalyticsObject'] = r;
@@ -43,10 +43,10 @@
 	<header>
 		<div class="navbar-fixed">
 			<nav class="purple darken-4">
-				<div class="nav-wrapper center-wrapper"><a id="logo-container" href={{"index.html" | relative_url }} class="brand-logo">CODE CAPSULE</a>
+				<div class="nav-wrapper center-wrapper"><a id="logo-container" href={{ "/blog-archive" | relative_url }} class="brand-logo">CODE CAPSULE</a>
 					<ul class="right hide-on-med-and-down main-menu">
-						<li><a href={{"index.html" | relative_url }}>Home</a></li>
-						<li><a href={{"blog-archive.html"  | relative_url }}>All Posts</a></li>
+						<li><a href={{ "/" | relative_url }}>Home</a></li>
+						<li><a href={{ "blog-archive" | relative_url }}>All Posts</a></li>
 						<li class="active"><a>Post</a></li>
 					</ul>
 
@@ -55,9 +55,9 @@
 							<li>
 								<div class="userView">
 									<div class="background">
-										<img src={{"images/pattern1.jpg" | relative_url }}>
+										<img src={{ "images/pattern1.jpg" | relative_url }}>
 									</div>
-									<a href="#!user"><img class="circle" src={{"images/profile-img1.jpg" | relative_url }}></a>
+									<a href="#!user"><img class="circle" src={{ "images/profile-img1.jpg" | relative_url }}></a>
 									<a href="#!name"><span class="white-text name">Dibyanshu</span></a>
 									<a href="#!email"><span class="white-text email">dibyanshusinha.github.io</span></a>
 								</div>
@@ -68,13 +68,13 @@
 									<div class="collapsible-body about"><span>My blog "Code Capsule" revolves around some of my experiences and encounters during my coding journey.<br> Please visit my Blog for more such posts.</span></div>
 								</li>
 								<li class="about">
-									<div class="collapsible-header waves-effect purple darken-4 white-text"><a href={{"blog-archive.html" | relative_url }}><i class="material-icons white-text">launch</i>My Blog</a></div>
+									<div class="collapsible-header waves-effect purple darken-4 white-text"><a href={{ "blog-archive" | relative_url }}><i class="material-icons white-text">launch</i>My Blog</a></div>
 								</li>
 							</ul>
 						</div>
 						<div class="middle"></div>
 						<div class="bottom">
-							<li class="my-purple bottom"><a class="waves-effect white-text" href={{"/index.html" | relative_url }} target="_blank"><i class="material-icons white-text">launch</i>My Portfolio</a></li>
+							<li class="my-purple bottom"><a class="waves-effect white-text" href={{ "/" | relative_url }} target="_blank"><i class="material-icons white-text">launch</i>My Portfolio</a></li>
 						</div>
 					</ul>
 					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -85,116 +85,102 @@
 
 
 	<!--Main-->
-<main>
-<aside id="modal1" class="modal">
-	<div class="modal-content">
-		<h4>Title</h4>
-	</div>
-</aside>
-<section class="center-wrapper hide-on-med-and-down">
+	<main>
+		<aside id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Title</h4>
+			</div>
+		</aside>
+		<section class="center-wrapper hide-on-med-and-down">
 			<div class="center-align">
-				<p class="about">My blog "Code Capsule" revolves around some of my experiences and encounters during my coding journey.<br> For more such posts please visit my <a href={{"blog-archive.html" | relative_url }} target="_blank">BlogPage</a> .
+				<p class="about">My blog "Code Capsule" revolves around some of my experiences and encounters during my coding journey.<br> For more such posts please visit my <a href={{ "blog-archive" | relative_url }} target="_blank">BlogPage</a> .
 					<hr class="thin">
 					<hr class="thin">
 				</p>
 			</div>
 		</section>
-<section id="post" class="center-wrapper ">
-	<h2>{{page.descriptive-title}}</h2>
-	<div class="card">
-		<div class="card-image banner-img">
-			<img src="{{page.mainimage | relative_url}}">
-		</div>
-		<div class="card-content">
-			<span class="card-title">By {{page.author}}<h6 class="grey-text right post-date">{{page.date | date: "%d %B %Y"}}</h6></span>
-			<hr>
-			<div class="tags center-align">
-				{% for tag in page.tags %}
-				<span class="chip">
-					{{tag}}
-				</span>
-				{% endfor %}
-				<br><br><br>
-			</div>
-			{{content}}
-		</div>
-	</div>
-</section>
-<section class="center-wrapper">
-	{% assign similarposts = '' | split: '.' %}
-	{% for thistag in page.tags %}
-		{% for post in site.posts %}
-			{% if post.tags contains thistag and post.url != page.url %}
-			{% assign position = forloop.index | minus:1 %}
-			{% include makehash.inc postindex = position %}
-			{% assign similarposts = similarposts | push: h %}
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
-	{% assign similarposts = similarposts | group_by_exp: "item", "item.postindex" %}
-	{% assign similarposts = similarposts | sort: 'size' | reverse %}
-
-	{% if similarposts.size > 0 %}
-	<div class="center-align">
-		<h3 class="fancy"><span>Similar Posts</span></h3>
-	</div>
-	<aside class="related-posts">
-		<div class="equal-width">
-			{% for index in similarposts limit:2 %}
-			<article class="equal-width-child equal-height">
-				<div class="card hoverable equal-height-child">
-					<div class="card-content white-text">
-						<span class="card-title">{{site.posts[index.name].title}}</span>
-						<p>{{site.posts[index.name].description}}</p>
-					</div>
-					<div class="card-action">
-						<a href="{{ site.posts[index.name].url }}" class="">Read</a>
-					</div>
+		<section id="post" class="center-wrapper ">
+			<h2>{{page.descriptive-title}}</h2>
+			<div class="card">
+				<div class="card-image banner-img">
+					<img src="{{page.mainimage | relative_url}}">
 				</div>
-			</article>
-			{% endfor %}
-			<!-- Todo: If multiple similar posts exist with same weightage
+				<div class="card-content">
+					<span class="card-title">By {{page.author}}<h6 class="grey-text right post-date">{{page.date | date: "%d %B %Y"}}</h6></span>
+					<hr>
+					<div class="tags center-align">
+						{% for tag in page.tags %}
+						<span class="chip">
+					{{tag}}
+				</span> {% endfor %}
+						<br><br><br>
+					</div>
+					{{content}}
+				</div>
+			</div>
+		</section>
+		<section class="center-wrapper">
+			{% assign similarposts = '' | split: '.' %} {% for thistag in page.tags %} {% for post in site.posts %} {% if post.tags contains thistag and post.url != page.url %} {% assign position = forloop.index | minus:1 %} {% include makehash.inc postindex = position %} {% assign similarposts = similarposts | push: h %} {% endif %} {% endfor %} {% endfor %} {% assign similarposts = similarposts | group_by_exp: "item", "item.postindex" %} {% assign similarposts = similarposts | sort: 'size' | reverse %} {% if similarposts.size > 0 %}
+			<div class="center-align">
+				<h3 class="fancy"><span>Similar Posts</span></h3>
+			</div>
+			<aside class="related-posts">
+				<div class="equal-width">
+					{% for index in similarposts limit:2 %}
+					<article class="equal-width-child equal-height">
+						<div class="card hoverable equal-height-child">
+							<div class="card-content white-text">
+								<span class="card-title">{{site.posts[index.name].title}}</span>
+								<p>{{site.posts[index.name].description}}</p>
+							</div>
+							<div class="card-action">
+								<a href="{{ site.posts[index.name].url }}" class="">Read</a>
+							</div>
+						</div>
+					</article>
+					{% endfor %}
+					<!-- Todo: If multiple similar posts exist with same weightage
 			then randomize them -->
-		</div>
-	</aside>
-	{% endif %}
-</section>
-<section class="center-wrapper comments">
-	<div class="center-align"><a onclick="loadComments()" class="waves-effect waves-light btn ">Load Comments</a></div>
-	<div id="disqus_thread"></div>
-</section>
-</main>
-<footer>
-</footer>
+				</div>
+			</aside>
+			{% endif %}
+		</section>
+		<section class="center-wrapper comments">
+			<div class="center-align"><a onclick="loadComments()" class="waves-effect waves-light btn ">Load Comments</a></div>
+			<div id="disqus_thread"></div>
+		</section>
+	</main>
+	<footer>
+	</footer>
 
 
-<script src="{{'js/jquery.min.js' | relative_url }}"></script>
-<script src="{{'js/materialize.js' | relative_url }}"></script>
-<script src="{{'js/prism.js' | relative_url }}"></script>
-<script src="{{'js/post.js' | relative_url }}"></script>
-<script>
- function loadComments(){
+	<script src="{{'js/jquery.min.js' | relative_url }}"></script>
+	<script src="{{'js/materialize.js' | relative_url }}"></script>
+	<script src="{{'js/prism.js' | relative_url }}"></script>
+	<script src="{{'js/post.js' | relative_url }}"></script>
+	<script>
+		function loadComments() {
 
-	 var disqus_config = function () {
-	 	this.page.url = "{{page.url | absolute_url}}"; // Put the current url
-	 	this.page.identifier = "{{page.id}}"; // Replace PAGE_IDENTIFIER with your page's unique id for the  blog
-	 	this.page.title = "{{page.title}}";
-	 };
+			var disqus_config = function() {
+				this.page.url = "{{page.url | absolute_url}}";
+				this.page.identifier = "{{page.id}}";
+				this.page.title = "{{page.title}}";
+			};
 
-	 if ((!disqus_loaded)) {
-		 disqus_loaded = true;
-		 (function () { // DON'T EDIT BELOW THIS LINE
-		 		var d = document,
-		 		s = d.createElement('script');
-		 		s.src = '//webappdeveloper.disqus.com/embed.js';
-		 		s.setAttribute('data-timestamp', +new Date());
-		 		(d.head || d.body).appendChild(s);
-		 })();
-	 }
- }
+			if ((!disqus_loaded)) {
+				disqus_loaded = true;
+				(function() {
+					var d = document,
+						s = d.createElement('script');
+					s.src = '//webappdeveloper.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			}
+		}
 
-</script>
-<noscript>Please enable JavaScript to view the page correctly.</a></noscript>
+	</script>
+	<noscript>Please enable JavaScript to view the page correctly.</a></noscript>
 
 </body>
 
