@@ -5,7 +5,7 @@ descriptive-title: Dynamic responsive pagination with angular Js with Filters
 category: mean
 keywords: dynamic responsive pagination
 description: Ever wondered how to bind ton's of data to your own custom pagination structure ? AngularJs with little bootstrap can be the magic glue you need.
-mainimage: images/pagination.jpg
+mainimage: images/posts/pagination.jpg
 tags: Blog AngularJs Web
 author: Dibyanshu
 ---

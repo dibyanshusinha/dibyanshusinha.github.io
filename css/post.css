@@ -98,6 +98,10 @@ main .about {
 	font-size: 1.5rem;
 }
 
+#post .text-underline{
+	text-decoration: underline;
+}
+
 #post .card-title {
 	font-weight: bolder;
 }
@@ -105,6 +109,10 @@ main .about {
 #post .post-date {
 	font-weight: bold;
 	font-size: .8em;
+}
+
+#post-content p{
+	margin-top: 20px;
 }
 
 #post .img {

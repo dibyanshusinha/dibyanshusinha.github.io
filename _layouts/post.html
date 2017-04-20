@@ -110,12 +110,11 @@
 					<hr>
 					<div class="tags center-align">
 						{% for tag in page.tags %}
-						<span class="chip">
-					{{tag}}
-				</span> {% endfor %}
-						<br><br><br>
+						<span class="chip">{{tag}}</span>
+						{% endfor %}
+						<br>
 					</div>
-					{{content}}
+					<div id="post-content">{{content}}</div>
 				</div>
 			</div>
 		</section>

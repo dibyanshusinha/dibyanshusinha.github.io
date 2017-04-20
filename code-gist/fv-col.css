@@ -1,0 +1,30 @@
+/*Responsive Blocks Img Ref:2 using Flex*/
+.flex{
+  width: 100%;
+  height:500px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.item{
+  background: black;
+  height: 200px;
+  width: 100%;
+  flex-grow: 1;
+  margin: 2px;
+}
+
+
+
+@media screen and (min-width: 601px) {
+  .item{
+    width: 44%;
+  }
+}
+
+/*Greater than most tabs i.e Range of Laptops*/
+@media screen and (min-width: 993px) {
+  .item{
+    width: 30%;
+  }
+}

@@ -5,7 +5,7 @@ descriptive-title: WordPress Security Tips
 category: web
 keywords: WordPress Security Tips web
 description: Tired of 1000's of Brute-Force attacks being attempted on your WordPress Dashboard ? This post can help to minimize the effect with few simple tricks.
-mainimage: images/wp-secure.jpg
+mainimage: images/posts/wp-secure.jpg
 tags: Web Security
 author: Dibyanshu
 ---
