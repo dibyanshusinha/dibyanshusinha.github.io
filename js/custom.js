@@ -29,6 +29,9 @@ $(document).ready(function () {
 
 	var containerEl = document.querySelector('#portfolio-list');
 	var mixer = mixitup(containerEl, {
+		selectors: {
+        control: '[data-mixitup-control]'
+    },
 		load: {
 			sort: 'place:asc'
 		},
@@ -95,14 +98,6 @@ $(document).ready(function () {
 	$('.testimonial-content').height($('.testimonial-content').height());
 
 });
-
-
-
-
-//declare globally
-function showPortfolioDetails(portfolio) {
-	$(portfolio).modal('show');
-};
 
 
 $(window).on('load', function () {

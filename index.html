@@ -1,5 +1,5 @@
---- 
-layout: main 
+---
+layout: main
 ---
 <!-- Resume Section Starts -->
 <section id="resume">
@@ -141,7 +141,7 @@ layout: main
 				<h2 class="title animated fadeInLeft ">Portfolio</h2>
 				<div class="controls">
 					{% for button in site.data.portfoliobuttons %}
-					<button class="filter waves-effect waves-light btn" data-filter="{{button.class}}">{{button.name}}</button> {% endfor %}
+					<button class="filter waves-effect waves-light btn" data-mixitup-control data-filter="{{button.class}}">{{button.name}}</button> {% endfor %}
 				</div>
 			</div>
 		</div>
@@ -186,7 +186,7 @@ layout: main
 					<div class="mix {{portfolio.category}} " data-place="{{portfolio.place}}">
 						<a>
 							<img src="{{portfolio.image}}" alt="img">
-							<i class="fa fa-eye" onclick="showPortfolioDetails('#portfolioModal{{portfolio.place}}')"></i>
+							<i class="fa fa-eye" data-toggle="modal" data-target="#portfolioModal{{portfolio.place}}"></i>
 						</a>
 					</div>
 					{% endfor %}

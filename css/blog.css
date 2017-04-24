@@ -182,6 +182,18 @@ nav {
 	position: relative;
 }
 
+.post .card .card-action{
+	display: flex;
+	justify-content: space-between;
+}
+
+.post .card .card-action .tag {
+    width: 70%;
+    padding: 0 5px;
+    display: flex;
+    margin: auto 0;
+    flex-grow: 0.9;
+}
 
 /*Footer*/
 
