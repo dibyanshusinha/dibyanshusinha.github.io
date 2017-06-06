@@ -46,6 +46,6 @@ With the smaller and cheaper yet promising devices such as Raspberry Pi, Arduino
 **--Time: Depends...for a pro dev it should be about 2-3 days**
 <br>
 Control Options: Smartphone/Sms/Bluetooth/Tweet etc.
-Re-imagine as you fit.<br><br><br><br>
+Re-imagine as you see fit.<br><br><br><br>
 
 [*Post on Implementation part coming soon*]
