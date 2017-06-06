@@ -4,7 +4,7 @@ title: Internet of Things(IoT)
 descriptive-title: What's the hype about Internet of Things(IoT) ??
 category: web
 keywords: iot, internet, communication, smart
-description: With the smaller and cheaper yet promising devices such as Raspeberry Pi, Audrino etc...combined with Internet can turn pretty much any thing to smarter things
+description: With the smaller and cheaper yet promising devices such as Raspberry Pi, Arduino etc...combined with Internet can turn pretty much any thing to smarter things
 mainimage: images/posts/IoT-intro.jpg
 tags: iot intro smart
 author: Dibyanshu
@@ -23,11 +23,11 @@ It's that easy. Wait ! Did I mention it's cheap !! No you don't have to waste mi
 gadgets.
 
 Mention: I read somewhere that Tesla won't be selling cars in India(consumer base +1.3 billion population) !
-FunFact: Even if Tesla  did, I can't afford it as of now. ( 50 lakhs!!!)
+FunFact: Even if Tesla  did, I can't afford it as of now. ( 50 lakhs!!!) Nor does 90% of India.
 Motive: Let's convert our existing cars to Smart Cars. Digital India campaign needs to be transformed to Smarter India. Deliver "Smartness" as an enhancement not just a product.
 
 
-With the smaller and cheaper yet promising devices such as Raspeberry Pi, Audrino etc...combined with Internet can turn pretty much any thing to smarter things, and the best part is you can control it remotely even with your smartphones. This Machine to Machine communication can be a bliss, a full fledged computer(Raspberry Pi-Internet enabled)- costs about 35$ each and use low power so low that running it for an year would cost approx just 5$ !! The sensors are cheaper aswell...
+With the smaller and cheaper yet promising devices such as Raspberry Pi, Arduino etc...combined with Internet can turn pretty much any thing to smarter things, and the best part is you can control it remotely even with your smartphones. This Machine to Machine communication can be a bliss, a full fledged computer(Raspberry Pi-Internet enabled)- costs about 35$ each and use low power so low that running it for an year would cost approx just 5$ !! The sensors are cheaper aswell...
 
 <span class="text-underline">For example To control your electricity remotely you need:</span>
 
@@ -37,13 +37,13 @@ With the smaller and cheaper yet promising devices such as Raspeberry Pi, Audrin
 
 **--Internet connection to the Raspberry Pi**
 
-**--One Audrino connected to Raspberry Pi.(optional)**
+**--One Arduino connected to Raspberry Pi.(optional)**
 
 **--A relay module and a cable**
 
 **--Coding Skills ;)**
 
-**--Max Time: 10 hours**
+**--Time: Depends...for a pro dev it should be about 2-3 days**
 <br>
 Control Options: Smartphone/Sms/Bluetooth/Tweet etc.
 Re-imagine as you fit.<br><br><br><br>
