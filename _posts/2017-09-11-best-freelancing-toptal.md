@@ -34,7 +34,7 @@ Now I get enriched experiences from a large pool of projects, ownership of the i
 
 
 
-My current project is in last milestone, and am looking for a new Gig. Recently I heard of <a href="https://www.toptal.com/" target='_blank'> TopTal</a>, where one can enjoy the delights of being a Freelancer at the sametime get work from top clients and make a difference. What's more an opportunity sweeter and better than this ? On top of that, if you are on <a href="https://www.toptal.com/" target='_blank'> TopTal</a>, that means you represent a talent pool of top 3% developers around the world. Now that's a Brand to have. I have begun my interview process, and waiting to contribute soon.
+My current project is in last milestone, and am looking for a new Gig. Recently I heard of <a href="https://www.toptal.com/web" target='_blank'> TopTal</a>, where one can enjoy the delights of being a Freelancer at the sametime get work from top clients and make a difference. What's more an opportunity sweeter and better than this ? On top of that, if you are on <a href="https://www.toptal.com/web" target='_blank'> TopTal</a>, that means you represent a talent pool of top 3% developers around the world. Now that's a Brand to have. I have begun my interview process, and waiting to contribute soon.
 
 
 
