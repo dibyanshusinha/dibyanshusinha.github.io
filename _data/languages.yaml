@@ -22,6 +22,18 @@
   link: "#"
   weight: 21
 
+- name: iOS
+  link: "#"
+  weight: 21
+
+- name: Android
+  link: "#"
+  weight: 21
+
+- name: Silverlight
+  link: "#"
+  weight: 21
+
 - name: XML
   link: "#"
   weight: 13
@@ -64,11 +76,11 @@
 
 - name: Bootstrap
   link: "#"
-  weight: 23
+  weight: 19
 
 - name: SVG
   link: "#"
-  weight: 23
+  weight: 16
 
 - name: jQuery
   link: "#"
@@ -76,7 +88,7 @@
 
 - name: Mongo DB
   link: "#"
-  weight: 28
+  weight: 22
 
 - name: Karma
   link: "#"
@@ -92,20 +104,20 @@
 
 - name: Swift
   link: "#"
-  weight: 19
+  weight: 17
 
 - name: AWS
   link: "#"
-  weight: 25
+  weight: 20
 
 - name: Linux
   link: "#"
-  weight: 28
+  weight: 20
 
 - name: MOCHA
   link: "#"
-  weight: 20
+  weight: 15
 
 - name: ORACLE WCS
   link: "#"
-  weight: 35
+  weight: 25
