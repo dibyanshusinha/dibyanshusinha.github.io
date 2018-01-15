@@ -21,7 +21,39 @@ layout: main
 		</div>
 	</article>
 	<!-- Skills Ends -->
+
+	<!-- Language & Frameworks -->
+
+	<article id="lang">
+        <div class="container">
+            <div class="valign-wrapper">
+								<div class="lang-text flex-grow">
+									<div class="">
+											<h3>Languages & Frameworks</h3>
+											<p>These are the languages & Frameworks I usually work with. Let me know which one's ur fav and why !! What would you do if you had a software expert available at your fingertips !!</p>
+									</div>
+								</div>
+                <div class="flex-grow margin-sm-horiz">
+                    <div id="myCanvasContainer" class="single-center">
+                        <canvas id="myCanvas" width="600" height="600">
+		                        <p>Please Update ! Your browser don't support canvas</p>
+		                    </canvas>
+                    </div>
+                    <div id="tagList">
+                        <ul>{% for lang in site.data.languages %}
+                            <li><a data-weight="{{site.data.weight}}"><big><strong>{{lang.name}}</strong></big></a></li>
+														{% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
 	<div class="clearfix"></div>
+	<!-- Language & Frameworks Ends-->
+
+
 	<!-- Experience Starts -->
 	<article id="experience">
 		<div class="container">
@@ -68,7 +100,7 @@ layout: main
 			<div class="row">
 				<div class="col-md-12">
 					<div class="title animatedParent">
-						<h1 class="boldheading animated fadeInUp slow">EDUCATION</h1>
+						<h1 class="boldheading animated fadeIn">EDUCATION</h1>
 					</div>
 				</div>
 			</div>

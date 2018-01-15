@@ -4,5 +4,6 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.DS_Store
 
 # End of https://dibyanshusinha.github.io

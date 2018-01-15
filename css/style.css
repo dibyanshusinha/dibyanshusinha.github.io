@@ -477,7 +477,7 @@ a:active {
 	float: left;
 	width: 100%;
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .skill-progress-bar span {
@@ -506,6 +506,68 @@ a:active {
 
 .pro-bar.skill-face {
 	background: #2980b9;
+}
+/*----------LANGUAGES----------*/
+
+.valign-wrapper{
+	display: flex;
+	align-content: center;
+	flex-flow: row wrap;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#lang{
+	padding: 10vh 0;
+	background-color: rgba(0, 0, 0, 0.87);
+	color: #fff;
+}
+#lang .margin-sm-horiz {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#lang .flex-grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+#lang .single-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+#lang .lang-text {
+    width: 30%;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #myCanvas {}
+    .lang-text {
+        max-width: 50%;
+				color: #F7CE3E;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    #skills > div {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 560px){
+	#myCanvas {
+	    width: 80vw;
+	    height: 80vw;
+	}
 }
 
 
@@ -1308,6 +1370,17 @@ textarea {
 	color: #fff;
 	padding: 10px;
 	background: #4A4E5D;
+}
+
+form#gform p.text-center {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+form#gform p.text-center strong{
+	width: 100%;
 }
 
 .contact-map {

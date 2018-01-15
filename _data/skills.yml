@@ -1,27 +1,23 @@
-- name: Html5/Bootstrap
-  rate: 95
+- name: ORACLE WCS/CLOUD/AWS
+  rate: 70
+  delay: 550
+
+- name: UI/UX
+  rate: 85
   delay: 50
 
-- name: API
-  rate: 80
+- name: BACKEND-API
+  rate: 90
   delay: 100
 
-- name: ANDROID
-  rate: 85
+- name: APPLICATIONS - NATIVE/HYBRID
+  rate: 80
   delay: 300
 
-- name: ANGULAR JS
-  rate: 85
-  delay: 400
-
-- name: WORDPRESS
+- name: CMS - WORDPRESS/OPENCART/JEKYLL/SHOPIFY
   rate: 75
   delay: 400
 
 - name: SCRIPTING
-  rate: 85
+  rate: 95
   delay: 500
-
-- name: WINDOWS APPS
-  rate: 65
-  delay: 550
