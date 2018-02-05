@@ -124,12 +124,12 @@
 
 - name: React.Js
   link: "#"
-  weight: 25
+  weight: 15
 
 - name: Block-Chain
   link: "#"
-  weight: 25
+  weight: 20
 
 - name: Solidity
   link: "#"
-  weight: 25
+  weight: 15
