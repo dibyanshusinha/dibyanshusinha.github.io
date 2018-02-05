@@ -121,3 +121,15 @@
 - name: ORACLE WCS
   link: "#"
   weight: 25
+
+- name: React.Js
+  link: "#"
+  weight: 25
+
+- name: Block-Chain
+  link: "#"
+  weight: 25
+
+- name: Solidity
+  link: "#"
+  weight: 25
