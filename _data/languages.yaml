@@ -38,6 +38,10 @@
   link: "#"
   weight: 13
 
+- name: React.Js
+  link: "#"
+  weight: 20
+
 - name: Angular JS
   link: "#"
   weight: 27
@@ -121,10 +125,6 @@
 - name: ORACLE WCS
   link: "#"
   weight: 25
-
-- name: React.Js
-  link: "#"
-  weight: 15
 
 - name: Block-Chain
   link: "#"

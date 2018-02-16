@@ -10,7 +10,7 @@
   rate: 90
   delay: 100
 
-- name: APPLICATIONS - NATIVE/HYBRID
+- name: APPLICATIONS - NATIVE/HYBRID/BLOCK-CHAIN(Dapps)
   rate: 80
   delay: 300
 
