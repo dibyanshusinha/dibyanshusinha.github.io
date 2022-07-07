@@ -47,12 +47,6 @@
 <link href='css/style.css' rel='stylesheet'>
 <link href='css/responsive.css' rel='stylesheet'>
 
-<!--Custom helping var to help in submitting msgs-->
-<script type="text/javascript">
-	var submitted = false;
-
-</script>
-
 
 <body data-spy="scroll" data-taget=".navbar-nav">
 	<div id="load-cover">
@@ -210,7 +204,7 @@
 						<div class="row">
 							<!-- Message Starts -->
 							<article class="col-xs-12 col-md-6">
-								<form class="contact-form" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1E60FjOR-BAH5mZTKOk29-ES-o4hlWd5KrGxR741w1bs/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+								<form class="contact-form" name="gform" id="gform">
 									<div class="input-field">
 										<label class="input-label" for="contact-name">Name</label>
 										<input type="text" class="input-box" name="entry.30195375" id="entry.30195375" required>
@@ -227,9 +221,14 @@
 										<label class="input-label" for="textarea1">Message</label>
 										<textarea class="textarea" name="entry.1999539921" id="entry.1999539921" required></textarea>
 									</div>
-									<button class="waves-effect submit-btn" type="submit" value="Submit">send message</button>
+									<div class="captcha">
+										<div class="input-field">
+											<label class="input-label" for="captcha"><div id="captcha"></div></label>
+											<input type="text" placeholder="Please enter text shown above" class="input-box" name="captcha" required>
+										</div>
+										<button class="waves-effect submit-btn" type="submit" value="Submit">send message</button>
+									</div>
 								</form>
-								<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {submitCheck()}"></iframe>
 							</article>
 							<!-- Message Ends-->
 							<!-- Map Starts-->
